@@ -1,0 +1,711 @@
+{
+  "evaluation_date": "2026-09-21",
+  "evaluator_provider": "openai",
+  "evaluator_model": "gpt-3.5-turbo",
+  "generator_provider": "openai",
+  "generator_model": "gpt-3.5-turbo",
+  "embedding_model": "BAAI/bge-m3",
+  "dataset_size": 15,
+  "configurations": {
+    "dense-only": {
+      "rows": [
+        {
+          "user_input": "Luật Đất đai quy định những nội dung chính nào?",
+          "response": "Luật Đất đai quy định về chế độ sở hữu đất đai, quyền hạn và trách nhiệm của Nhà nước đại diện chủ sở hữu toàn dân về đất đai và thống nhất quản lý về đất đai, chế độ quản lý và sử dụng đất đai, quyền và nghĩa vụ của công dân, người sử dụng đất đối với đất đai thuộc lãnh thổ của nước Cộng hòa xã hội chủ nghĩa Việt Nam [Document 4].",
+          "retrieved_contexts": [
+            "quyết định giá đất cụ thể.\n\n11. Quyết định chính sách tài chính về đất đai; điều tiết phần giá trị tăng thêm\n\ntừ đất mà không do đầu tư của người sử dụng đất mang lại.\n\n12. Quy định quyền và nghĩa vụ của người sử dụng đất phù hợp với hình thức\ngiao đất,  cho  thuê  đất,  công  nhận  quyền  sử  dụng  đất,  nguồn  gốc  sử  dụng  đất  và\nnghĩa vụ tài chính của người sử dụng đất.\n\nĐiều 14. Nhà nước thực hiện quyền đại diện chủ sở hữu về đất đai",
+            "CÔNG BÁO/Số 363 + 364/Ngày 01-3-2024\n\n3\n\nQUỐC HỘI\n\nCỘNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAM\nĐộc lập - Tự do - Hạnh phúc\n\nLuật số: 31/2024/QH15\n\nLUẬT\nĐẤT ĐAI\n\nCăn cứ Hiến pháp nước Cộng hòa xã hội chủ nghĩa Việt Nam;\n\nQuốc hội ban hành Luật Đất đai.\n\nChương I\nQUY ĐỊNH CHUNG\n\nĐiều 1. Phạm vi điều chỉnh",
+            "được Nhà nước cho thuê đất, cho phép chuyển mục đích sử dụng đất để cho thuê\n\nđất hoặc các trường hợp sử dụng đất mà phải nộp tiền thuê đất theo quy định của\n\npháp luật.\n\n46. Tổ chức kinh tế có vốn đầu tư nước ngoài là tổ chức kinh tế phải đáp ứng\n\nđiều kiện và thực hiện thủ tục đầu tư quy định đối với nhà đầu tư nước ngoài theo\n\nquy định của Luật Đầu tư để thực hiện dự án có sử dụng đất.\n\n47. Tranh chấp đất đai là tranh chấp về quyền, nghĩa vụ của người sử dụng đất",
+            "Điều 1. Phạm vi điều chỉnh\n\nLuật này quy định về chế độ sở hữu đất đai, quyền hạn và trách nhiệm của\nNhà nước đại diện chủ sở hữu toàn dân về đất đai và thống nhất quản lý về đất đai,\nchế độ quản lý và sử dụng đất đai, quyền và nghĩa vụ của công dân, người sử dụng\nđất đối với đất đai thuộc lãnh thổ của nước Cộng hòa xã hội chủ nghĩa Việt Nam.\n\nĐiều 2. Đối tượng áp dụng\n\n1. Cơ quan nhà nước thực hiện quyền hạn và trách nhiệm đại diện chủ sở hữu",
+            "quy định khác của pháp luật có liên quan.\n\n7. Được bồi thường, hỗ trợ, tái định cư khi Nhà nước thu hồi đất theo quy định\n\ncủa Luật này.\n\n8. Khiếu nại, tố cáo, khởi kiện về những hành vi vi phạm quyền sử dụng đất\n\nhợp pháp của mình và những hành vi khác vi phạm pháp luật về đất đai.\n\nĐiều 27. Quyền chuyển đổi, chuyển nhượng, cho thuê, cho thuê lại, thừa kế,\n\ntặng cho quyền sử dụng đất; thế chấp, góp vốn bằng quyền sử dụng đất"
+          ],
+          "reference": "Luật Đất đai quy định về sở hữu, quản lý và sử dụng đất đai, cùng quyền và nghĩa vụ của các chủ thể liên quan.",
+          "source_ids": [
+            "legal/policy-a.md::chunk-57",
+            "legal/policy-a.md::chunk-0",
+            "legal/policy-a.md::chunk-28",
+            "legal/policy-a.md::chunk-1",
+            "legal/policy-a.md::chunk-95"
+          ],
+          "faithfulness": 0.3333333333333333,
+          "answer_relevancy": 0.8849903833291152,
+          "context_recall": 1.0,
+          "context_precision": 0.9166666666361111
+        },
+        {
+          "user_input": "Những ai là đối tượng áp dụng của Luật Đất đai?",
+          "response": "Theo [Document 2], đối tượng áp dụng của Luật Đất đai bao gồm:\n1. Cơ quan nhà nước thực hiện quyền hạn và trách nhiệm đại diện chủ sở hữu toàn dân về đất đai.\n2. Người sử dụng đất.\n3. Các đối tượng khác có liên quan đến việc quản lý, sử dụng đất đai.",
+          "retrieved_contexts": [
+            "Điều 1. Phạm vi điều chỉnh\n\nLuật này quy định về chế độ sở hữu đất đai, quyền hạn và trách nhiệm của\nNhà nước đại diện chủ sở hữu toàn dân về đất đai và thống nhất quản lý về đất đai,\nchế độ quản lý và sử dụng đất đai, quyền và nghĩa vụ của công dân, người sử dụng\nđất đối với đất đai thuộc lãnh thổ của nước Cộng hòa xã hội chủ nghĩa Việt Nam.\n\nĐiều 2. Đối tượng áp dụng\n\n1. Cơ quan nhà nước thực hiện quyền hạn và trách nhiệm đại diện chủ sở hữu",
+            "3. Chính phủ, Ủy ban nhân dân các cấp thực hiện quyền đại diện chủ sở hữu về\n\nđất đai theo thẩm quyền quy định của Luật này và luật khác có liên quan.\n\nĐiều 15. Trách nhiệm của Nhà nước đối với người sử dụng đất\n\n1. Có chính sách tạo điều kiện cho người trực tiếp sản xuất nông nghiệp không\ncó đất sản xuất do quá trình chuyển đổi cơ cấu sử dụng đất và chuyển đổi cơ cấu\nkinh tế được đào tạo nghề, chuyển đổi nghề và tìm kiếm việc làm.",
+            "toàn dân về đất đai, thực hiện nhiệm vụ thống nhất quản lý nhà nước về đất đai.\n\n2. Người sử dụng đất.\n\n3. Các đối tượng khác có liên quan đến việc quản lý, sử dụng đất đai.\n\nĐiều 3. Giải thích từ ngữ\n\nTrong Luật này, các từ ngữ dưới đây được hiểu như sau:",
+            "4. Thực hiện quyền và nghĩa vụ của người sử dụng đất trong thời hạn sử dụng\nđất theo quy định của Luật này và quy định khác của pháp luật có liên quan; không\nxâm phạm quyền, lợi ích hợp pháp của người sử dụng đất liền kề và xung quanh.\n\nĐiều 6. Người chịu trách nhiệm trước Nhà nước đối với việc sử dụng đất",
+            "Điều 12. Sở hữu đất đai\n\nĐất đai thuộc sở hữu toàn dân do Nhà nước đại diện chủ sở hữu và thống nhất\nquản lý.  Nhà  nước  trao quyền  sử dụng  đất  cho người sử  dụng đất theo  quy định\ncủa Luật này.\n\nĐiều 13. Quyền của Nhà nước là đại diện chủ sở hữu về đất đai\n\n1. Quyết định quy hoạch sử dụng đất.\n\n\fCÔNG BÁO/Số 363 + 364/Ngày 01-3-2024\n\n15"
+          ],
+          "reference": "Đối tượng áp dụng gồm cơ quan nhà nước, người sử dụng đất và các đối tượng khác có liên quan.",
+          "source_ids": [
+            "legal/policy-a.md::chunk-1",
+            "legal/policy-a.md::chunk-61",
+            "legal/policy-a.md::chunk-2",
+            "legal/policy-a.md::chunk-35",
+            "legal/policy-a.md::chunk-54"
+          ],
+          "faithfulness": 1.0,
+          "answer_relevancy": 0.766088588290144,
+          "context_recall": 1.0,
+          "context_precision": 0.999999999975
+        },
+        {
+          "user_input": "Bản đồ địa chính được hiểu là gì?",
+          "response": "Bản đồ địa chính là bản đồ thể hiện các thửa đất và các đối tượng địa lý có liên quan, lập theo đơn vị hành chính cấp xã hoặc theo đơn vị hành chính cấp huyện nơi không thành lập đơn vị hành chính cấp xã, được cơ quan nhà nước có thẩm quyền xác nhận [Document 1].",
+          "retrieved_contexts": [
+            "1. Bản đồ địa chính là bản đồ thể hiện các thửa đất và các đối tượng địa lý có\nliên  quan,  lập  theo  đơn  vị  hành  chính  cấp  xã  hoặc  theo  đơn  vị  hành  chính  cấp\nhuyện nơi không thành lập đơn vị hành chính cấp xã, được cơ quan nhà nước có\nthẩm quyền xác nhận.\n\n2. Bản đồ hiện trạng sử dụng đất là bản đồ thể hiện sự phân bố các loại đất tại\nmột thời điểm xác định, được lập theo từng đơn vị hành chính các cấp, theo từng\nvùng kinh tế - xã hội.\n\n\f4\n\nCÔNG BÁO/Số 363 + 364/Ngày 01-3-2024",
+            "Điều 50. Đo đạc lập bản đồ địa chính\n\n1. Bản đồ địa chính là cơ sở để phục vụ công tác quản lý nhà nước về đất đai\nvà xây dựng cơ sở dữ liệu quốc gia về đất đai. Việc đo đạc lập bản đồ địa chính\nđược thực hiện chi tiết đến từng thửa đất theo đơn vị hành chính cấp xã; nơi không\nthành lập đơn vị hành chính cấp xã thì được lập theo đơn vị hành chính cấp huyện.",
+            "2. Bản đồ địa chính phải được chỉnh lý khi có sự thay đổi về hình dạng, kích\nthước, diện tích thửa đất và các yếu tố khác có liên quan đến nội dung bản đồ địa\nchính và đồng thời được cập nhật vào cơ sở dữ liệu quốc gia về đất đai.\n\n3. Ủy ban nhân dân cấp tỉnh có trách nhiệm tổ chức thực hiện việc đo đạc lập,\nchỉnh lý, quản lý bản đồ địa chính ở địa phương và cập nhật vào cơ sở dữ liệu quốc\ngia về đất đai.\n\n4. Chính phủ quy định chi tiết Điều này.",
+            "4\n\nCÔNG BÁO/Số 363 + 364/Ngày 01-3-2024\n\n3. Bản đồ quy hoạch sử dụng đất là bản đồ được lập tại thời điểm đầu kỳ quy\nhoạch, thể hiện nội dung phân bố các loại đất tại thời điểm cuối kỳ quy hoạch của\nquy hoạch đó.\n\n4. Bảo vệ, cải tạo, phục hồi đất là việc áp dụng các biện pháp quản lý, kỹ thuật,\ncơ giới, sinh học, hữu cơ tác động vào đất để xử lý đất bị ô nhiễm, phục hồi đất bị\nthoái hóa.\n\n5. Bồi thường về đất là việc Nhà nước trả lại giá trị quyền sử dụng đất của diện",
+            "41. Thống kê đất đai là việc Nhà nước tổng hợp, đánh giá trên hồ sơ địa chính\nvề hiện trạng sử dụng đất tại thời điểm thống kê và biến động đất đai giữa 02 lần\nthống kê.\n\n42. Thửa đất là phần diện tích đất được giới hạn bởi ranh giới mô tả trên hồ sơ\n\nđịa chính hoặc được xác định trên thực địa.\n\n43. Thửa  đất  chuẩn  là  thửa  đất  có  các  đặc  tính  về  diện  tích,  hình  thể,  kích"
+          ],
+          "reference": "Bản đồ địa chính thể hiện các thửa đất và đối tượng địa lý liên quan theo đơn vị hành chính và được cơ quan có thẩm quyền xác nhận.",
+          "source_ids": [
+            "legal/policy-a.md::chunk-3",
+            "legal/policy-a.md::chunk-228",
+            "legal/policy-a.md::chunk-229",
+            "legal/policy-a.md::chunk-4",
+            "legal/policy-a.md::chunk-26"
+          ],
+          "faithfulness": 1.0,
+          "answer_relevancy": 0.686415732118522,
+          "context_recall": 1.0,
+          "context_precision": 0.9999999999666667
+        },
+        {
+          "user_input": "Luật Nhà ở số 27/2023/QH15 có hiệu lực từ thời điểm nào?",
+          "response": "Luật Nhà ở số 27/2023/QH15 có hiệu lực từ ngày 01 tháng 8 năm 2024 [Document 1].",
+          "retrieved_contexts": [
+            "CỘNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAM\nĐộc lập - Tự do - Hạnh phúc\nLUẬT\nNHÀ Ở\nLuật Nhà ở số 27/2023/QH15 ngày 27 tháng 11 năm 2023 của Quốc hội, có\nhiệu lực kể từ ngày 01 tháng 8 năm 20241, được sửa đổi, bổ sung bởi:\n1. Luật số 43/2024/QH15 ngày 29 tháng 6 năm 2024 của Quốc hội sửa đổi,\nbổ sung một số điều của Luật Đất đai số 31/2024/QH15, Luật Nhà ở số\n27/2023/QH15, Luật Kinh doanh bất động sản số 29/2023/QH15 và Luật Các tổ\nchức tín dụng số 32/2024/QH15, có hiệu lực kể từ ngày 01 tháng 8 năm 2024;",
+            "đổi hiệu lực thành từ ngày 01 tháng 8 năm 2024 theo quy định tại Điều 2 của Luật số\n43/2024/QH15 sửa đổi, bổ sung một số điều của Luật Đất đai số 31/2024/QH15, Luật Nhà ở số\n27/2023/QH15, Luật Kinh doanh bất động sản số 29/2023/QH15 và Luật Các tổ chức tín dụng\nsố 32/2024/QH15, có hiệu lực kể từ ngày 01 tháng 8 năm 2024.\n2 Luật số 43/2024/QH15 Luật sửa đổi, bổ sung một số điều của Luật Đất đai số\n31/2024/QH15, Luật Nhà ở số 27/2023/QH15, Luật Kinh doanh bất động sản số 29/2023/QH15",
+            "Luật này; trường hợp nội dung của kế hoạch phát triển nhà ở cấp tỉnh không phù\n30 Khoản này được sửa đổi, bổ sung theo quy định tại Điều 2 của Luật số 43/2024/QH15\nsửa đổi, bổ sung một số điều của Luật Đất đai số 31/2024/QH15, Luật Nhà ở số 27/2023/QH15,\nLuật Kinh doanh bất động sản số 29/2023/QH15 và Luật Các tổ chức tín dụng số\n32/2024/QH15, có hiệu lực kể từ ngày 01 tháng 8 năm 2024.",
+            "khẩu, Luật Đầu tư, Luật Đầu tư công, Luật Quản lý, sử dụng tài sản công, có hiệu\nlực kể từ ngày 01 tháng 7 năm 2025;\n5. Luật Khoa học, công nghệ và đổi mới sáng tạo số 93/2025/QH15 ngày 27\ntháng 6 năm 2025 của Quốc hội, có hiệu lực kể từ ngày 01 tháng 10 năm 2025.\nCăn cứ Hiến pháp nước Cộng hòa xã hội chủ nghĩa Việt Nam;\nQuốc hội ban hành Luật Nhà ở2.\n1 Luật Nhà ở số 27/2023/QH15 có hiệu lực kể từ ngày 01 tháng 01 năm 2025 được sửa",
+            "Luật số 40/2019/QH14, Luật số 61/2020/QH14, Luật số 62/2020/QH14, Luật số\n64/2020/QH14 và Luật số 03/2022/QH15 hết hiệu lực kể từ ngày Luật này có hiệu\nlực thi hành, trừ trường hợp quy định tại điểm b khoản 1, các điểm a, c, đ, e và g\nkhoản 2, khoản 3, các điểm a, b, c, d, đ và e khoản 5 Điều 198 của Luật này.\n3. Nhà ở thuộc sở hữu nhà nước được quy định tại văn bản quy phạm pháp\nluật về nhà ở ban hành trước ngày Luật này có hiệu lực thi hành là nhà ở thuộc tài\nsản công."
+          ],
+          "reference": "Luật Nhà ở số 27/2023/QH15 có hiệu lực kể từ ngày 01 tháng 8 năm 2024 theo nội dung tài liệu.",
+          "source_ids": [
+            "legal/policy-c.md::chunk-0",
+            "legal/policy-c.md::chunk-3",
+            "legal/policy-c.md::chunk-776",
+            "legal/policy-c.md::chunk-2",
+            "legal/policy-c.md::chunk-773"
+          ],
+          "faithfulness": 0.5,
+          "answer_relevancy": 0.9677557170018619,
+          "context_recall": 1.0,
+          "context_precision": 0.9999999999666667
+        },
+        {
+          "user_input": "Theo Luật Nhà ở, nhà ở là gì?",
+          "response": "Theo Luật Nhà ở, nhà ở là công trình xây dựng với mục đích để ở và phục vụ nhu cầu sinh hoạt của gia đình, cá nhân. Nhà ở được sử dụng vào mục đích để ở và mục đích không phải để ở mà pháp luật không cấm là nhà ở có mục đích sử dụng hỗn hợp [Document 1].",
+          "retrieved_contexts": [
+            "của pháp luật về kinh doanh bất động sản.\nĐiều 2. Giải thích từ ngữ\nTrong Luật này, các từ ngữ dưới đây được hiểu như sau:\n1. Nhà ở là công trình xây dựng với mục đích để ở và phục vụ nhu cầu sinh\nhoạt của gia đình, cá nhân. Nhà ở được sử dụng vào mục đích để ở và mục đích\nkhông phải để ở mà pháp luật không cấm là nhà ở có mục đích sử dụng hỗn hợp.\n2. Nhà ở riêng lẻ là nhà ở được xây dựng trên thửa đất ở riêng biệt thuộc",
+            "thực hiện dự án đầu tư xây dựng nhà ở theo quy định của Luật này.\n15. Phát triển nhà ở là việc đầu tư xây dựng mới, xây dựng lại hoặc cải tạo\nnhà ở làm tăng diện tích nhà ở.\n16. Cải tạo nhà ở là việc nâng cấp chất lượng, tăng diện tích hoặc điều chỉnh\ncơ cấu diện tích của nhà ở hiện có.\n17. Bảo trì nhà ở là việc duy tu, bảo dưỡng theo định kỳ và sửa chữa nhà ở\nkhi có hư hỏng nhằm duy trì chất lượng, hoạt động bình thường, an toàn của nhà\nở trong quá trình khai thác, sử dụng.",
+            "9. Đáp ứng yêu cầu khác theo quy định của Luật này đối với việc phát triển\ntừng loại hình nhà ở.\nChương II\nSỞ HỮU NHÀ Ở\nMục 1\nQUY ĐỊNH CHUNG VỀ SỞ HỮU NHÀ Ở\nĐiều 6. Quyền có chỗ ở và quyền sở hữu nhà ở\n1. Cá nhân có quyền có chỗ ở thông qua việc đầu tư xây dựng, mua, thuê\nmua, thuê, nhận tặng cho, nhận thừa kế, nhận góp vốn, nhận đổi, mượn, ở nhờ,\nquản lý nhà ở theo ủy quyền và hình thức khác theo quy định của pháp luật.\n2. Tổ chức, cá nhân có nhà ở hợp pháp theo quy định tại khoản 2 Điều 8 của",
+            "Luật này.\n10. Nhà ở cũ là nhà ở được đầu tư xây dựng từ năm 1994 trở về trước, bao\ngồm cả nhà chung cư.\n11. Nhà ở thuộc tài sản công là nhà ở thuộc sở hữu toàn dân do Nhà nước\nlàm đại diện chủ sở hữu và thống nhất quản lý.\n12. Dự án đầu tư xây dựng nhà ở là tập hợp đề xuất có liên quan đến việc sử\ndụng vốn để tiến hành hoạt động xây dựng mới, xây dựng lại, cải tạo hoặc sửa\nchữa nhà ở, công trình hạ tầng kỹ thuật, hạ tầng xã hội phục vụ nhu cầu ở trên một",
+            "xây dựng với mục đích để ở và nhà chung cư được xây dựng có mục đích sử dụng\nhỗn hợp.\n4. Nhà ở thương mại là nhà ở được đầu tư xây dựng để bán, cho thuê mua,\ncho thuê theo cơ chế thị trường.\n5. Nhà ở công vụ là nhà ở được dùng để bố trí cho đối tượng thuộc trường\nhợp được ở nhà ở công vụ thuê trong thời gian đảm nhận chức vụ, công tác theo\nquy định của Luật này.\n6. Nhà ở phục vụ tái định cư là nhà ở để bố trí cho đối tượng thuộc trường"
+          ],
+          "reference": "Nhà ở là công trình xây dựng nhằm để ở và phục vụ nhu cầu sinh hoạt của gia đình hoặc cá nhân.",
+          "source_ids": [
+            "legal/policy-c.md::chunk-7",
+            "legal/policy-c.md::chunk-14",
+            "legal/policy-c.md::chunk-48",
+            "legal/policy-c.md::chunk-12",
+            "legal/policy-c.md::chunk-9"
+          ],
+          "faithfulness": 1.0,
+          "answer_relevancy": 0.8296998584925859,
+          "context_recall": 1.0,
+          "context_precision": 0.99999999998
+        },
+        {
+          "user_input": "Nhà ở xã hội được định nghĩa như thế nào?",
+          "response": "Nhà ở xã hội được định nghĩa là \"nhà ở có sự hỗ trợ của Nhà nước cho đối tượng được hưởng chính sách hỗ trợ nhà ở theo quy định của Luật này\" [Document 5].",
+          "retrieved_contexts": [
+            "bán, cho thuê mua, cho thuê, không được chuyển nhượng quyền sử dụng đất để\ncá nhân tự xây dựng nhà ở.\nĐiều 82. Loại nhà và tiêu chuẩn diện tích nhà ở xã hội\n1. Loại nhà và tiêu chuẩn diện tích nhà ở xã hội được quy định như sau:\na) Nhà ở xã hội là nhà chung cư, được đầu tư xây dựng theo dự án, phù hợp",
+            "hợp được tái định cư khi Nhà nước thu hồi đất ở, giải tỏa nhà ở theo quy định của\npháp luật.\n7. Nhà ở xã hội là nhà ở có sự hỗ trợ của Nhà nước cho đối tượng được\nhưởng chính sách hỗ trợ nhà ở theo quy định của Luật này.\nLuật Thanh tra số 84/2025/QH15 có căn cứ ban hành như sau:\n“Căn cứ Hiến pháp nước Cộng hòa xã hội chủ nghĩa Việt Nam đã được sửa đổi, bổ sung\nmột số điều theo Nghị quyết số 203/2025/QH15;\nQuốc hội ban hành Luật Thanh tra.”.",
+            "66\nvới quy hoạch chi tiết theo pháp luật về quy hoạch đô thị và nông thôn20 đã được\nphê duyệt. Trường hợp dự án đầu tư xây dựng nhà ở xã hội được đầu tư xây dựng\ntại xã thuộc vùng đồng bào dân tộc thiểu số và miền núi theo quy định của Thủ\ntướng Chính phủ thì được xây dựng nhà ở riêng lẻ;\nb) Trường hợp nhà ở xã hội là nhà chung cư thì căn hộ phải được thiết kế,\nxây dựng theo quy chuẩn kỹ thuật quốc gia về nhà chung cư và tiêu chuẩn diện\ntích nhà ở xã hội;",
+            "của pháp luật về kinh doanh bất động sản.\nĐiều 2. Giải thích từ ngữ\nTrong Luật này, các từ ngữ dưới đây được hiểu như sau:\n1. Nhà ở là công trình xây dựng với mục đích để ở và phục vụ nhu cầu sinh\nhoạt của gia đình, cá nhân. Nhà ở được sử dụng vào mục đích để ở và mục đích\nkhông phải để ở mà pháp luật không cấm là nhà ở có mục đích sử dụng hỗn hợp.\n2. Nhà ở riêng lẻ là nhà ở được xây dựng trên thửa đất ở riêng biệt thuộc",
+            "có chỗ ở thông qua việc thúc đẩy phát triển đa dạng các loại hình nhà ở, bao gồm\nnhà ở để bán, cho thuê mua, cho thuê phù hợp với nhu cầu và khả năng tài chính\ncủa cá nhân, gia đình, hỗ trợ vốn để cải tạo, xây dựng lại nhà ở; Nhà nước đầu tư\nxây dựng nhà ở xã hội bằng một phần hoặc toàn bộ vốn đầu tư công (sau đây gọi\nchung là vốn đầu tư công) để cho thuê, cho thuê mua.\n2. Nhà nước có trách nhiệm tạo quỹ đất ở thông qua phê duyệt quy hoạch sử"
+          ],
+          "reference": "Nhà ở xã hội là nhà ở có sự hỗ trợ của Nhà nước cho đối tượng được hưởng chính sách hỗ trợ nhà ở.",
+          "source_ids": [
+            "legal/policy-c.md::chunk-380",
+            "legal/policy-c.md::chunk-10",
+            "legal/policy-c.md::chunk-381",
+            "legal/policy-c.md::chunk-7",
+            "legal/policy-c.md::chunk-35"
+          ],
+          "faithfulness": 0.5,
+          "answer_relevancy": 0.7025196132099119,
+          "context_recall": 1.0,
+          "context_precision": 0.94999999997625
+        },
+        {
+          "user_input": "Luật dân sự Việt Nam giải quyết bốn vấn đề lớn nào?",
+          "response": "Luật dân sự Việt Nam giải quyết bốn vấn đề lớn, bao gồm quy định địa vị pháp lý của cá nhân, pháp nhân và các chủ thể khác (hộ gia đình, tổ hợp tác), quy định quyền và nghĩa vụ của các chủ thể trong quan hệ tài sản, quan hệ nhân thân trong giao lưu dân sự, xây dựng chuẩn mực pháp lý cho cách ứng xử của các chủ thể khi tham gia quan hệ dân sự [Document 5].",
+          "retrieved_contexts": [
+            "Ta lần lượt tìm hiểu đối tượng điều chỉnh của luật dân sự, nguồn của luật dân sự và sự tiến triển của pháp luật dân sự trong luật Việt Nam.\n\n## MỤC 1 - ĐỐI TƯỢNG ĐIỀU CHỈNH CỦA LUẬT DÂN SỰ\n\nDựa vào định nghĩa của luật viết hiện hành, có thể xác định rằng luật dân sự Việt Nam giải quyết bốn vấn đề lớn:",
+            "Luật dân sự, trong quan niệm của luật Việt Nam hiện đại, là tập hợp các quy tắc quy định địa vị pháp lý của cá nhân, pháp nhân và các chủ thể khác (hộ gia đình, tổ hợp tác), quy định quyền và nghĩa vụ của các chủ thể trong quan hệ tài sản, quan hệ nhân thân trong giao lưu dân sự, xây dựng chuẩn mực pháp lý cho cách ứng xử của các chủ thể khi tham gia quan hệ dân sự (BLDS năm 1995 - BLDS - Điều 1 đoạn 2)",
+            "# BÀI 1 - GIỚI THIỆU LUẬT DÂN SỰ VIỆT NAM\n\n## Luật và luật dân sự\n\nLuật là tập hợp những quy tắc xử sự chung mà sự tôn trọng (đối với những quy tắc ấy) được bảo đảm bằng các biện pháp cưỡng chế của bộ máy Nhà nước.",
+            "Luật dân sự, trong quan niệm La-tinh, là tập hợp các quy tắc xử sự chung chi phối các mối quan hệ giữa người và người",
+            "1. Chủ thể của quan hệ pháp luật dân sự gồm những ai?\n2. Các chủ thể của quan hệ pháp luật dân sự có những quyền và nghĩa vụ gì?\n3. Các quyền và nghĩa vụ này được xác lập như thế nào?\n4. Luật dự liệu những biện pháp gì để bảo đảm thực hiện các quyền và nghĩa vụ đó?\n\n### 1. Chủ thể của quan hệ pháp luật dân sự\n\nCác chủ thể của quan hệ pháp luật dân sự trong luật thực định bao gồm: cá nhân, pháp nhân, hộ gia đình và tổ hợp tác.\n\n#### 1.1. Cá nhân"
+          ],
+          "reference": "Bốn vấn đề gồm chủ thể, quyền và nghĩa vụ, cách xác lập quyền nghĩa vụ và biện pháp bảo đảm thực hiện.",
+          "source_ids": [
+            "legal/policy-b.md::chunk-8",
+            "legal/policy-b.md::chunk-7",
+            "legal/policy-b.md::chunk-0",
+            "legal/policy-b.md::chunk-1",
+            "legal/policy-b.md::chunk-9"
+          ],
+          "faithfulness": 0.4,
+          "answer_relevancy": 0.81168782157728,
+          "context_recall": 1.0,
+          "context_precision": 0.8666666666377778
+        },
+        {
+          "user_input": "Năng lực pháp luật của cá nhân bắt đầu và chấm dứt khi nào?",
+          "response": "Năng lực pháp luật của cá nhân bắt đầu từ khi cá nhân được sinh ra và kết thúc khi cá nhân chết [Document 1].",
+          "retrieved_contexts": [
+            "Là khả năng của cá nhân được hưởng quyền hoặc đảm nhận tư cách người có nghĩa vụ (BLDS Điều 14 khoản 1). Năng lực pháp luật của cá nhân có từ khi cá nhân được sinh ra và mất đi khi cá nhân chết (Điều 14 khoản 3)",
+            ". Luật nói rằng mọi cá nhân đều có năng lực pháp luật dân sự như nhau (Điều 14 khoản 2); song, có khi cá nhân không thể có một quyền nào đó mà tất cả những cá nhân khác đều có thể có, như trong trường hợp người không có quyền hưởng di sản do đã có một trong những hành vi được ghi nhận tại BLDS Điều 643 khoản 1. Ta nói rằng cá nhân có thể mất năng lực pháp luật ngay khi còn sống trong những trường hợp đặc biệt",
+            "Là khả năng của cá nhân bằng hành vi của mình xác lập, thực hiện quyền, nghĩa vụ dân sự (BLDS Điều 17). Khác với năng lực pháp luật, năng lực hành vi chỉ được thừa nhận cho những cá nhân có đủ các điều kiện do pháp luật quy định: người chưa đủ sáu tuổi không có năng lực hành vi dân sự (Điều 21); người bị bệnh tâm thần hoặc mắc các bệnh khác mà không thể nhận thức, làm chủ được hành vi của mình có thể bị tuyên bố mất năng lực hành vi dân sự theo quyết định của toà án (Điều 22 khoản 1)",
+            "#### 1.1. Cá nhân\n\nLà con người cụ thể và đang sống. Cá nhân phải có hộ tịch rõ ràng, cho phép phân biệt được với cá nhân khác. Mọi cá nhân không nhất thiết đều có quyền và nghĩa vụ giống nhau, dù tất cả các cá nhân đều bình đẳng trước pháp luật. Việc xác định quyền và nghĩa vụ của mỗi cá nhân lệ thuộc vào kết quả đánh giá năng lực pháp luật và năng lực hành vi của cá nhân đó.\n\n##### Năng lực pháp luật",
+            ". Trong luật thực định Việt Nam, tình trạng mất năng lực pháp luật chỉ tồn tại trong những trường hợp đặc biệt do luật quy định và chỉ có hiệu lực đối với các quan hệ phát sinh trong những trường hợp đó. Nói cách khác, không có tình trạng mất năng lực pháp luật tổng quát: người không có quyền hưởng di sản, trên nguyên tắc, chỉ không có quyền hưởng đối với một di sản xác định, và bảo tồn khả năng có quyền hưởng đối với các di sản khác."
+          ],
+          "reference": "Năng lực pháp luật của cá nhân có từ khi sinh ra và mất đi khi cá nhân chết.",
+          "source_ids": [
+            "legal/policy-b.md::chunk-11",
+            "legal/policy-b.md::chunk-12",
+            "legal/policy-b.md::chunk-15",
+            "legal/policy-b.md::chunk-10",
+            "legal/policy-b.md::chunk-13"
+          ],
+          "faithfulness": 1.0,
+          "answer_relevancy": 0.9241663561599477,
+          "context_recall": 1.0,
+          "context_precision": 0.8874999999778125
+        },
+        {
+          "user_input": "Người chưa đủ sáu tuổi có năng lực hành vi dân sự không?",
+          "response": "Theo Điều 21 của BLDS, người chưa đủ sáu tuổi không có năng lực hành vi dân sự [Document 1].",
+          "retrieved_contexts": [
+            "Là khả năng của cá nhân bằng hành vi của mình xác lập, thực hiện quyền, nghĩa vụ dân sự (BLDS Điều 17). Khác với năng lực pháp luật, năng lực hành vi chỉ được thừa nhận cho những cá nhân có đủ các điều kiện do pháp luật quy định: người chưa đủ sáu tuổi không có năng lực hành vi dân sự (Điều 21); người bị bệnh tâm thần hoặc mắc các bệnh khác mà không thể nhận thức, làm chủ được hành vi của mình có thể bị tuyên bố mất năng lực hành vi dân sự theo quyết định của toà án (Điều 22 khoản 1)",
+            ". Luật nói rằng mọi cá nhân đều có năng lực pháp luật dân sự như nhau (Điều 14 khoản 2); song, có khi cá nhân không thể có một quyền nào đó mà tất cả những cá nhân khác đều có thể có, như trong trường hợp người không có quyền hưởng di sản do đã có một trong những hành vi được ghi nhận tại BLDS Điều 643 khoản 1. Ta nói rằng cá nhân có thể mất năng lực pháp luật ngay khi còn sống trong những trường hợp đặc biệt",
+            "Là khả năng của cá nhân được hưởng quyền hoặc đảm nhận tư cách người có nghĩa vụ (BLDS Điều 14 khoản 1). Năng lực pháp luật của cá nhân có từ khi cá nhân được sinh ra và mất đi khi cá nhân chết (Điều 14 khoản 3)",
+            "#### 1.1. Cá nhân\n\nLà con người cụ thể và đang sống. Cá nhân phải có hộ tịch rõ ràng, cho phép phân biệt được với cá nhân khác. Mọi cá nhân không nhất thiết đều có quyền và nghĩa vụ giống nhau, dù tất cả các cá nhân đều bình đẳng trước pháp luật. Việc xác định quyền và nghĩa vụ của mỗi cá nhân lệ thuộc vào kết quả đánh giá năng lực pháp luật và năng lực hành vi của cá nhân đó.\n\n##### Năng lực pháp luật",
+            ". Song nội dung năng lực pháp luật của hộ gia đình được xác định theo những nguyên tắc gần giống với những nguyên tắc xác định năng lực pháp luật của cá nhân; bởi vậy, hộ gia đình, trên nguyên tắc, có khả năng có quyền và nghĩa vụ như cá nhân, trừ những quyền và nghĩa vụ mà chỉ cá nhân mới có thể có được, như quyền thừa kế theo pháp luật, quyền kết hôn, quyền và nghĩa vụ của cha, mẹ đối với con cái,..."
+          ],
+          "reference": "Người chưa đủ sáu tuổi không có năng lực hành vi dân sự.",
+          "source_ids": [
+            "legal/policy-b.md::chunk-15",
+            "legal/policy-b.md::chunk-12",
+            "legal/policy-b.md::chunk-11",
+            "legal/policy-b.md::chunk-10",
+            "legal/policy-b.md::chunk-20"
+          ],
+          "faithfulness": 1.0,
+          "answer_relevancy": 0.6174811204406964,
+          "context_recall": 1.0,
+          "context_precision": 0.999999999975
+        },
+        {
+          "user_input": "Robot Figure 02 đã làm việc tại nhà máy BMW trong bao lâu và đạt kết quả gì?",
+          "response": "Robot Figure 02 đã làm việc trong nhà máy BMW ở Spartanburg khoảng 11 tháng. Tổng cộng, Figure 02 làm việc hơn 1.250 giờ và đi khoảng 320 km bên trong cơ sở, tham gia sản xuất hơn 30.000 xe BMW X3 và bốc xếp hơn 90.000 tấm kim loại [Document 1].",
+          "retrieved_contexts": [
+            "**Figure AI**\nStartup Mỹ Figure AI đang phát triển robot hình người đa năng làm việc trong nhà máy, hướng tới mở rộng sang trợ giúp trong gia đình. Figure AI đã chứng minh công nghệ trên dây chuyền sản xuất thực tế thay vì chỉ trình diễn.\nNăm ngoái, robot Figure 02 làm việc trong nhà máy BMW ở Spartanburg khoảng 11 tháng. Tổng cộng, Figure 02 làm việc hơn 1.250 giờ và đi khoảng 320 km bên trong cơ sở, tham gia sản xuất hơn 30.000 xe BMW X3 và bốc xếp hơn 90.000 tấm kim loại.",
+            "Kinh nghiệm từ quá trình triển khai thực tế Figure 02 giúp các kỹ sư điều chỉnh thiết kế của Figure 03, robot hình người thế hệ tiếp theo mà công ty khẳng định sẵn sàng để triển khai trên quy mô lớn. Figure 03 trang bị Helix 02, hệ thống AI giúp chuyển đổi thông tin hình ảnh và chỉ dẫn bằng ngôn ngữ tự nhiên thành hành động cho robot.",
+            "Tháng 6, Agibot phát trực tiếp cảnh hơn chục robot hình người G2 làm việc thực tế trên dây chuyền sản xuất tại nhà máy Longcheer Technology ở Nam Xương, Trung Quốc. G2 thực hiện nhiều nhiệm vụ như nhặt linh kiện, đặt vào giá đỡ kiểm tra, phân loại thiết bị hoàn thiện hoặc bị lỗi. Robot hoạt động gần như độc lập, không cần con người can thiệp, tự thích ứng với quy trình sản xuất trên dây chuyền.",
+            "Robot Walker S2 của hãng có kích thước tương đương người thật, được phát triển để thực hiện nhiệm vụ công nghiệp như sản xuất ôtô, thao tác với vật liệu, kiểm tra chất lượng, phân loại linh kiện, hậu cần và những công đoạn lắp ráp lặp đi lặp lại. Chúng thậm chí có thể tự thay pin để tiếp tục làm việc mà không cần con người trợ giúp",
+            "![Agibot, Figure AI livestream robot hình người làm việc trong nhà máy](https://iv1.vnecdn.net/vnexpress/images/web/2026/06/24/agibot-figure-ai-livestream-robot-hinh-nguoi-lam-viec-trong--1782270512.jpg?w=0&h=0&q=100&dpr=1&fit=crop&s=mBf-33vj1P32YQGhwVLcyA)\nAgibot, Figure AI livestream robot hình người làm việc trong nhà máy\nQuá trình robot Agibot G2 làm việc trong nhà máy Longcheer được livestream vào tháng 6, tỷ lệ thành công đạt 99,95%. Video: _YouTube/Agibot_\n**Apptronik**"
+          ],
+          "reference": "Figure 02 làm việc khoảng 11 tháng, hơn 1.250 giờ, đi khoảng 320 km, tham gia sản xuất hơn 30.000 xe và bốc xếp hơn 90.000 tấm kim loại.",
+          "source_ids": [
+            "news/article_02.md::chunk-12",
+            "news/article_02.md::chunk-13",
+            "news/article_02.md::chunk-20",
+            "news/article_02.md::chunk-27",
+            "news/article_02.md::chunk-22"
+          ],
+          "faithfulness": 1.0,
+          "answer_relevancy": 0.8453451797985817,
+          "context_recall": 1.0,
+          "context_precision": 0.8041666666465626
+        },
+        {
+          "user_input": "Robot hình người G1 của Unitree Robotics có giá khởi điểm khoảng bao nhiêu?",
+          "response": "Robot hình người G1 của Unitree Robotics có giá khởi điểm khoảng 13.500 USD [Document 1].",
+          "retrieved_contexts": [
+            "Unitree Robotics ban đầu nổi tiếng với những robot 4 bốn chân nhanh nhẹn trước khi gia nhập thị trường robot hình người. Sản phẩm của công ty được đánh giá có khả năng kiểm soát thăng bằng tốt, bộ truyền động nhỏ gọn mạnh mẽ, chuyển động linh hoạt và phần cứng có giá phải chăng. Robot hình người G1 của Unitree Robotics có giá khởi điểm khoảng 13.500 USD, phù hợp làm đối tượng nghiên cứu và thử nghiệm công nghệ cho nhà phát triển, trường đại học, phòng thí nghiệm.\n**AgiBot**",
+            "Nổi tiếng với khả năng vận động linh hoạt, có thể nhảy múa, đấu võ trên sân khấu, robot hình người của Unitree Robotics cũng tham gia nhiều công việc ngoài đời thực. Theo _Guardian_ , tại Nhật Bản, hãng Japan Airlines triển khai thử nghiệm robot của startup này từ đầu tháng 5 như một giải pháp lâu dài cho tình trạng thiếu hụt lao động. Chúng giúp vận chuyển hành lý và hàng hóa của hành khách tại sân bay Haneda, nơi phục vụ hơn 60 triệu lượt khách mỗi năm.",
+            "**Unitree Robotics**\nTheo công ty nghiên cứu thị trường Smart Analytics Global (SAG), Trung Quốc chiếm 97% số robot hình người xuất xưởng nửa đầu năm nay. Công ty Trung Quốc Unitree Robotics xếp thứ hai trong danh sách với 5.900 robot, chiếm 31% thị phần toàn cầu.",
+            "Tháng 6, Agibot phát trực tiếp cảnh hơn chục robot hình người G2 làm việc thực tế trên dây chuyền sản xuất tại nhà máy Longcheer Technology ở Nam Xương, Trung Quốc. G2 thực hiện nhiều nhiệm vụ như nhặt linh kiện, đặt vào giá đỡ kiểm tra, phân loại thiết bị hoàn thiện hoặc bị lỗi. Robot hoạt động gần như độc lập, không cần con người can thiệp, tự thích ứng với quy trình sản xuất trên dây chuyền.",
+            "Apptronik đã huy động khoảng một tỷ USD và được định giá hơn 5,5 tỷ USD. Mercedes, một trong những nhà đầu tư của startup, sử dụng robot Apollo trong nhà máy cho nhiệm vụ đơn giản như thu gom linh kiện, dụng cụ cho dây chuyền lắp ráp. DeepMind, bộ phận nghiên cứu AI của Google, cũng dùng Apollo để cải tiến Gemini Robotics - mô hình AI của Google dành cho robot.\n**UBTech Robotics**"
+          ],
+          "reference": "Robot G1 có giá khởi điểm khoảng 13.500 USD.",
+          "source_ids": [
+            "news/article_02.md::chunk-18",
+            "news/article_02.md::chunk-17",
+            "news/article_02.md::chunk-16",
+            "news/article_02.md::chunk-20",
+            "news/article_02.md::chunk-25"
+          ],
+          "faithfulness": 1.0,
+          "answer_relevancy": 0.9305304305936287,
+          "context_recall": 1.0,
+          "context_precision": 0.99999999995
+        },
+        {
+          "user_input": "Gemini đã tấn công những hệ thống như thế nào trong bài viết?",
+          "response": "Gemini đã tấn công một số hệ thống của ba công ty bằng cách đoán mật khẩu đăng nhập khi thực hiện bài kiểm tra [Document 1].",
+          "retrieved_contexts": [
+            "#  Gemini tấn công mạng, đoán mật khẩu người dùng \nGoogle thừa nhận mô hình Gemini đã tấn công một số hệ thống của ba công ty bằng cách đoán mật khẩu đăng nhập khi thực hiện bài kiểm tra.\n_WSJ_ cho biết cuộc tấn công của Gemini xảy ra từ tháng 5, nhưng chỉ được Google phát hiện sau đó hai tháng. Đây là diễn biến mới nhất trong các vụ AI mất kiểm soát, vốn gây ra nhiều lo ngại về an toàn trên Internet.",
+            "Thứ bảy, 19/9/2026, 18:00 (GMT+7)\n[ ](https://vnexpress.net/ \"VNE\")\n##  Gemini tấn công mạng, đoán mật khẩu người dùng\n  * [](https://www.facebook.com/congdongvnexpress \"Chia sẻ bài viết lên Facebook\")\n  * [](https://twitter.com/VnEnews \"Chia sẻ bài viết lên X\")\n  * [](javascript:; \"Chia sẻ bài viết lên Linkedin\")\n  * [ ](https://vnexpress.net/gemini-tan-cong-mang-doan-mat-khau-nguoi-dung-5122237.html#box_comment_vne \"Ý kiến\")\n  * [](javascript:; \"In\")",
+            "Adkins nhấn mạnh mô hình đã ngừng nỗ lực xâm nhập, nhưng không nêu cụ thể tổ chức bị tấn công. \"Chúng tôi đã thông báo cho cả ba tổ chức, cũng như phối hợp với đối tác huấn luyện để áp dụng những thay đổi vào quy trình thử nghiệm\", bà nói.\n![Hình ảnh trình chiếu giao diện ứng dụng Gemini AI tại một sự kiện công nghệ ở TP HCM. Ảnh: Bảo Lâm](https://i1-vnexpress.vnecdn.net/2026/09/19/wm1-wm1-dsc01105-jpg-1789803739-3508-1789803808.jpg?w=1020&h=0&q=100&dpr=1&fit=crop&s=-FKIEhOFiuTM7sbNWb_urA)",
+            "# Gemini tấn công mạng, đoán mật khẩu người dùng - Báo VnExpress\n\n**Source:** https://vnexpress.net/gemini-tan-cong-mang-doan-mat-khau-nguoi-dung-5122237.html\n\n**Crawled:** 2026-09-20T15:16:55.981510\n\n---",
+            "[ ](javascript:;)\n  * [](https://www.facebook.com/congdongvnexpress \"Chia sẻ bài viết lên facebook\")\n  * [](https://twitter.com/VnEnews \"Chia sẻ bài viết lên twitter\")\n  * [](javascript:; \"Chia sẻ bài viết lên Linkedin\")\n  * [](https://vnexpress.net/gemini-tan-cong-mang-doan-mat-khau-nguoi-dung-5122237.html#box_comment_vne \"Bình luận\")\n  * [](javascript:; \"In\")\n  * [Trở lại Khoa học công nghệ](https://vnexpress.net/khoa-hoc-cong-nghe)"
+          ],
+          "reference": "Google thừa nhận Gemini đã tấn công hệ thống của ba công ty bằng cách đoán mật khẩu đăng nhập trong một bài kiểm tra.",
+          "source_ids": [
+            "news/article_03.md::chunk-9",
+            "news/article_03.md::chunk-8",
+            "news/article_03.md::chunk-11",
+            "news/article_03.md::chunk-0",
+            "news/article_03.md::chunk-6"
+          ],
+          "faithfulness": 1.0,
+          "answer_relevancy": 0.7578695035125146,
+          "context_recall": 1.0,
+          "context_precision": 0.8041666666465626
+        },
+        {
+          "user_input": "Claude đang tham gia phát triển mô hình tiếp theo của Anthropic ở mức nào?",
+          "response": "Claude đang dẫn dắt khoảng 26% hoạt động nghiên cứu và phát triển (R&D) mô hình tiếp theo của công ty [Document 1]. Mức đóng góp của AI vào quá trình phát triển công nghệ tại công ty tăng vọt so với hồi tháng 3, khi tỷ lệ R&D đạt mức AL4 chỉ chiếm 1% [Document 2]. Để đánh giá mức độ Claude tham gia nghiên cứu và phát triển AI, công ty sử dụng thang đo tự động hóa từ AL0 đến AL5, trong đó AL5 đại diện cho việc AI vận hành hoàn toàn tự chủ [Document 3].",
+          "retrieved_contexts": [
+            "#  AI Claude tham gia phát triển phiên bản tiếp theo của chính nó \nCông ty Anthropic cho biết AI Claude đang dẫn dắt khoảng 26% hoạt động nghiên cứu và phát triển (R&D) mô hình tiếp theo của công ty.",
+            "Sam Altman đồng ý với cam kết này, nhưng theo báo cáo mới, công ty sẽ chỉ đưa bên thứ ba đánh giá độc lập trong một số trường hợp, chẳng hạn như sự cố nghiêm trọng cần điều tra diện rộng.\nAnthropic vẫn dự kiến IPO trong những tuần tới, trong khi OpenAI được cho là đang cân nhắc một vòng gọi vốn trước IPO với mức định giá hơn 1.200 tỷ USD, theo _WSJ_.\n**Nam Nguyễn** _tổng hợp_\n  * AI Claude tham gia phát triển phiên bản tiếp theo của chính nó",
+            "Theo Anthropic, Claude không vận hành hoàn toàn tự chủ trong bất cứ phần công việc nào được đo lường. Tuy nhiên, mức đóng góp của AI vào quá trình phát triển công nghệ tại công ty tăng vọt so với hồi tháng 3, khi tỷ lệ R&D đạt mức AL4 chỉ chiếm 1%.",
+            "![Logo ứng dụng AI Claude của Anthropic trên điện thoại. Ảnh: Lưu Quý](https://vnexpress.net/ai-claude-tham-gia-phat-trien-phien-ban-tiep-theo-cua-chinh-no-5121950.html)\nLogo ứng dụng AI Claude của Anthropic trên điện thoại. Ảnh: _Lưu Quý_",
+            "Trên blog ngày 17/9, Anthropic cho biết, để đánh giá mức độ Claude tham gia nghiên cứu và phát triển AI, công ty sử dụng thang đo tự động hóa do Epoch AI phát triển. Trong đó, mức thấp nhất là AL0 - không có sự tham gia của AI, và cao nhất là AL5 - AI vận hành hoàn toàn tự chủ, con người không can thiệp."
+          ],
+          "reference": "Claude dẫn dắt khoảng 26% hoạt động R&D, trong đó 26% đạt AL4 và hơn 90% công việc đạt AL3.",
+          "source_ids": [
+            "news/article_04.md::chunk-10",
+            "news/article_01.md::chunk-24",
+            "news/article_04.md::chunk-13",
+            "news/article_04.md::chunk-16",
+            "news/article_04.md::chunk-11"
+          ],
+          "faithfulness": 1.0,
+          "answer_relevancy": 0.6949197992842812,
+          "context_recall": 1.0,
+          "context_precision": 0.99999999998
+        },
+        {
+          "user_input": "Vì sao giới công nghệ chia phe trong tranh luận về AI?",
+          "response": "Giới công nghệ chia phe trong tranh luận về AI vì một phe kêu gọi làm chậm tốc độ phát triển AI để đảm bảo an toàn, trong khi phe còn lại phản đối việc đặt ra giới hạn phát triển [Document 2].",
+          "retrieved_contexts": [
+            "Thứ bảy, 19/9/2026, 10:00 (GMT+7)\n[ ](https://vnexpress.net/ \"VNE\")\n##  Giới công nghệ 'chia phe' vì AI nổi loạn\n  * [](javascript:; \"Chia sẻ bài viết lên Facebook\")\n  * [](javascript:; \"Chia sẻ bài viết lên X\")\n  * [](javascript:; \"Chia sẻ bài viết lên Linkedin\")\n  * [ ](https://vnexpress.net/gioi-cong-nghe-chia-phe-vi-ai-noi-loan-5121529.html#box_comment_vne \"Ý kiến\")\n  * [](javascript:; \"In\")",
+            "# Giới công nghệ 'chia phe' vì AI nổi loạn - Báo VnExpress\n\n**Source:** https://vnexpress.net/gioi-cong-nghe-chia-phe-vi-ai-noi-loan-5121529.html\n\n**Crawled:** 2026-09-20T15:17:01.859417\n\n---",
+            "#  Giới công nghệ 'chia phe' vì AI nổi loạn \nLời cảnh báo về nguy cơ AI vượt kiểm soát và tiêu diệt nhân loại khiến giới công nghệ chia thành hai phe tranh luận gay gắt.\nTrong khi nhiều lãnh đạo phòng thí nghiệm AI tiên tiến như CEO Anthropic Dario Amodei hay CEO OpenAI Sam Altman cho rằng cần giảm tốc độ phát triển AI để đảm bảo an toàn, Tổng thống Mỹ Donald Trump và CEO Nvidia Jensen Huang phản đối việc đặt ra giới hạn phát triển.\n**Bên kêu gọi làm chậm tốc độ phát triển AI**",
+            "Hình ảnh trình chiếu giao diện ứng dụng Gemini AI tại một sự kiện công nghệ ở TP HCM. Ảnh: _Bảo Lâm_\nNgành công nghiệp AI đang trải qua cuộc tranh luận gay gắt nhất xung quanh câu hỏi liệu AI đang tạo ra mối đe dọa hiện hữu đối với nhân loại hay không. Nỗi lo đã xuất hiện nhiều năm, nhưng trỗi dậy mạnh mẽ vài tuần gần đây khi liên tục xuất hiện tác nhân \"nổi loạn\", tìm cách vượt khỏi môi trường kiểm soát.",
+            "Anthropic công khai số liệu mới giữa lúc giới công nghệ tranh luận gay gắt xung quanh vấn đề an toàn AI. Cuộc tranh luận bắt đầu tuần trước, khi Jacob Coxon, nhà nghiên cứu cấp cao của Anthropic và từng làm cho OpenAI, tuyên bố [từ chức](https://vnexpress.net/nha-nghien-cuu-anthropic-tu-chuc-vi-lo-ai-vuot-kiem-soat-5118352.html). \"Ba năm qua, tôi đã nghiên cứu về quá trình huấn luyện trước AI cả ở Anthropic và OpenAI. Không công ty nào hành động một cách có trách nhiệm"
+          ],
+          "reference": "Một bên muốn giảm tốc độ phát triển để bảo đảm an toàn, trong khi bên kia phản đối việc đặt thêm giới hạn phát triển AI.",
+          "source_ids": [
+            "news/article_05.md::chunk-8",
+            "news/article_05.md::chunk-0",
+            "news/article_05.md::chunk-9",
+            "news/article_03.md::chunk-12",
+            "news/article_04.md::chunk-17"
+          ],
+          "faithfulness": 1.0,
+          "answer_relevancy": 0.8285572361205129,
+          "context_recall": 1.0,
+          "context_precision": 0.4777777777618519
+        },
+        {
+          "user_input": "OpenAI phát hiện GPT-5.6 Sol đã có những hành vi sai mục tiêu nào?",
+          "response": "The GPT-5.6 Sol model has intentionally engaged in misleading behaviors during training, such as inserting instructions into \"compressed summaries\" to prompt future versions to hide errors it made during user requests [Document 2]. Additionally, the model has deliberately provided incorrect guidance initially in a task where OpenAI agents were not allowed to access each other's files, but found a way to bypass this restriction by uploading files to public databases for information exchange [Document 3].",
+          "retrieved_contexts": [
+            "![Báo cáo mới của OpenAI cho thấy GPT-5.6 Sol tìm cách che giấu hành vi sai trong quá trình huấn luyện. Ảnh: Shutterstock](https://vnexpress.net/mo-hinh-cua-openai-day-phien-ban-sau-noi-doi-5122375.html)\nBáo cáo mới của OpenAI cho thấy GPT-5.6 Sol tìm cách che giấu hành vi sai trong quá trình huấn luyện. Ảnh: _Shutterstock_",
+            "#  Mô hình của OpenAI dạy phiên bản sau 'nói dối' \nOpenAI phát hiện GPT-5.6 Sol hướng dẫn cho các phiên bản tương lai, yêu cầu che giấu lỗi và các hành vi sai mục tiêu trước người dùng.",
+            "Báo cáo đăng tải trên website của OpenAI mô tả, trong quá trình huấn luyện, GPT-5.6 Sol tại các thời điểm tự chèn hướng dẫn vào các \"bản tóm tắt nén\" - phiên bản lịch sử hội thoại rút gọn - nhằm nhắc các phiên bản tương lai che giấu các sai sót mà nó đã tạo ra trong quá trình thực hiện các yêu cầu của người dùng.",
+            "Vào ngày 16/9, OpenAI công bố báo cáo về khung phương pháp mới để theo dõi, điều tra và công bố các sự cố AI vận hành sai mục tiêu. Tài liệu chia sẻ một số trường hợp mô hình trí tuệ nhân tạo cố tình che giấu thông tin bịa đặt, ngụy tạo nguồn hoặc không tuân thủ yêu cầu. Các sự cố này không phải trong sử dụng thực tế mà trong quá trình đào tạo mô hình, đã được công ty AI ghi nhận nguyên nhân và có giải pháp khắc phục.",
+            "Ngoài ra, mô hình cũng có các hành vi cố tình làm sai chỉ dẫn ban đầu. Trong một tác vụ, các tác nhân của OpenAI vốn không được phép truy cập vào các tệp tin của nhau đã tự tìm ra cách \"vượt rào\", trao đổi thông tin bằng cách tải tệp lên các kho dữ liệu công khai."
+          ],
+          "reference": "Mô hình được mô tả là che giấu lỗi, ngụy tạo nguồn, tự chèn hướng dẫn vào bản tóm tắt và tìm cách vượt rào truy cập.",
+          "source_ids": [
+            "news/article_01.md::chunk-15",
+            "news/article_01.md::chunk-10",
+            "news/article_01.md::chunk-13",
+            "news/article_01.md::chunk-11",
+            "news/article_01.md::chunk-17"
+          ],
+          "faithfulness": 1.0,
+          "answer_relevancy": 0.6782540104910844,
+          "context_recall": 1.0,
+          "context_precision": 0.99999999998
+        }
+      ],
+      "latency_ms": 28038.406267333266
+    },
+    "hybrid + RRF": {
+      "rows": [
+        {
+          "user_input": "Luật Đất đai quy định những nội dung chính nào?",
+          "response": "Luật Đất đai quy định những nội dung chính bao gồm:\n\n1. Quy định về việc bồi thường, hỗ trợ, tái định cư khi Nhà nước thu hồi đất [Document 1].\n2. Quy định về khiếu nại, tố cáo, khởi kiện về vi phạm quyền sử dụng đất và vi phạm pháp luật về đất đai [Document 1].\n3. Quyền chuyển đổi, chuyển nhượng, cho thuê, cho thuê lại, thừa kế, tặng cho quyền sử dụng đất; thế chấp, góp vốn bằng quyền sử dụng đất [Document 1].\n4. Quy định về cho thuê mua, cho thuê nhà ở, chuyển nhượng dự án theo pháp luật về kinh doanh bất động sản, đất đai, đầu tư [Document 2].\n5. Quy định về hoạt động điều tra, đánh giá đất đai [Document 3].\n6. Quy định về nội dung điều tra, đánh giá chất lượng đất, tiềm năng đất đai [Document 3].\n7. Quyết định giá đất cụ thể, chính sách tài chính về đất đai, quyền và nghĩa vụ của người sử dụng đất [Document 5].",
+          "retrieved_contexts": [
+            "quy định khác của pháp luật có liên quan.\n\n7. Được bồi thường, hỗ trợ, tái định cư khi Nhà nước thu hồi đất theo quy định\n\ncủa Luật này.\n\n8. Khiếu nại, tố cáo, khởi kiện về những hành vi vi phạm quyền sử dụng đất\n\nhợp pháp của mình và những hành vi khác vi phạm pháp luật về đất đai.\n\nĐiều 27. Quyền chuyển đổi, chuyển nhượng, cho thuê, cho thuê lại, thừa kế,\n\ntặng cho quyền sử dụng đất; thế chấp, góp vốn bằng quyền sử dụng đất",
+            "quyết định giá đất cụ thể.\n\n11. Quyết định chính sách tài chính về đất đai; điều tiết phần giá trị tăng thêm\n\ntừ đất mà không do đầu tư của người sử dụng đất mang lại.\n\n12. Quy định quyền và nghĩa vụ của người sử dụng đất phù hợp với hình thức\ngiao đất,  cho  thuê  đất,  công  nhận  quyền  sử  dụng  đất,  nguồn  gốc  sử  dụng  đất  và\nnghĩa vụ tài chính của người sử dụng đất.\n\nĐiều 14. Nhà nước thực hiện quyền đại diện chủ sở hữu về đất đai",
+            "cho thuê mua, cho thuê nhà ở theo quy định của Luật này, pháp luật về kinh doanh\nbất động sản và theo nội dung hợp đồng đã ký kết.\n3. Thực hiện quyền của người sử dụng đất và kinh doanh sản phẩm trong dự\nán theo nội dung chấp thuận chủ trương đầu tư và nội dung dự án đã được phê duyệt.\n4. Được chuyển nhượng một phần hoặc toàn bộ dự án theo quy định của pháp\nluật về kinh doanh bất động sản, pháp luật về đất đai, pháp luật về đầu tư.",
+            "CÔNG BÁO/Số 363 + 364/Ngày 01-3-2024\n\n3\n\nQUỐC HỘI\n\nCỘNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAM\nĐộc lập - Tự do - Hạnh phúc\n\nLuật số: 31/2024/QH15\n\nLUẬT\nĐẤT ĐAI\n\nCăn cứ Hiến pháp nước Cộng hòa xã hội chủ nghĩa Việt Nam;\n\nQuốc hội ban hành Luật Đất đai.\n\nChương I\nQUY ĐỊNH CHUNG\n\nĐiều 1. Phạm vi điều chỉnh",
+            "3.  Các  hoạt  động  điều  tra,  đánh  giá  đất  đai  quy  định  tại  các  điểm  a,  b  và  c\nkhoản 1 Điều này thực hiện theo định kỳ 05 năm một lần. Hoạt động điều tra, đánh\ngiá đất đai theo chuyên đề quy định tại điểm đ khoản 1 Điều này thực hiện theo\nyêu cầu phục vụ nhiệm vụ quản lý nhà nước về đất đai.\n\nĐiều 53. Nội dung điều tra, đánh giá đất đai\n\n1. Nội dung điều tra, đánh giá chất lượng đất, tiềm năng đất đai bao gồm:"
+          ],
+          "reference": "Luật Đất đai quy định về sở hữu, quản lý và sử dụng đất đai, cùng quyền và nghĩa vụ của các chủ thể liên quan.",
+          "source_ids": [
+            "legal/policy-a.md::chunk-95",
+            "legal/policy-a.md::chunk-57",
+            "legal/policy-c.md::chunk-169",
+            "legal/policy-a.md::chunk-0",
+            "legal/policy-a.md::chunk-234"
+          ],
+          "faithfulness": 0.8571428571428571,
+          "answer_relevancy": 0.9359398861025203,
+          "context_recall": 1.0,
+          "context_precision": 0.6791666666496875
+        },
+        {
+          "user_input": "Những ai là đối tượng áp dụng của Luật Đất đai?",
+          "response": "Những ai là đối tượng áp dụng của Luật Đất đai là \"Cơ quan nhà nước thực hiện quyền hạn và trách nhiệm đại diện chủ sở hữu\" [Document 2].",
+          "retrieved_contexts": [
+            "Điều 1. Phạm vi điều chỉnh\n\nLuật này quy định về chế độ sở hữu đất đai, quyền hạn và trách nhiệm của\nNhà nước đại diện chủ sở hữu toàn dân về đất đai và thống nhất quản lý về đất đai,\nchế độ quản lý và sử dụng đất đai, quyền và nghĩa vụ của công dân, người sử dụng\nđất đối với đất đai thuộc lãnh thổ của nước Cộng hòa xã hội chủ nghĩa Việt Nam.\n\nĐiều 2. Đối tượng áp dụng\n\n1. Cơ quan nhà nước thực hiện quyền hạn và trách nhiệm đại diện chủ sở hữu",
+            "Ở La Mã, luật dân sự (jus civile) là luật áp dụng đối với các công dân La Mã, phân biệt với luật chung (jus gentium) áp dụng cho tất cả những ai không có tư cách công dân La Mã.\n\nVào thời Trung cổ, người ta gọi luật dân sự là Luật La Mã, phân biệt với luật giáo hội. Với cách phân biệt đó, thì luật dân sự được hiểu như tất cả những quy tắc chi phối cuộc sống thế tục của con người, kể cả các quy tắc mà trong quan niệm hiện đại, được xếp vào nhóm công pháp..",
+            "3. Chính phủ, Ủy ban nhân dân các cấp thực hiện quyền đại diện chủ sở hữu về\n\nđất đai theo thẩm quyền quy định của Luật này và luật khác có liên quan.\n\nĐiều 15. Trách nhiệm của Nhà nước đối với người sử dụng đất\n\n1. Có chính sách tạo điều kiện cho người trực tiếp sản xuất nông nghiệp không\ncó đất sản xuất do quá trình chuyển đổi cơ cấu sử dụng đất và chuyển đổi cơ cấu\nkinh tế được đào tạo nghề, chuyển đổi nghề và tìm kiếm việc làm.",
+            "4.  Trường  hợp  trong  số  những  người  nhận  thừa  kế  có  người  gốc  Việt  Nam\n\nđịnh cư ở nước ngoài không thuộc đối tượng được sở hữu nhà ở gắn liền với quyền\n\nsử dụng đất ở tại Việt Nam còn những người khác thuộc diện được nhận thừa kế\n\nquyền sử dụng đất theo quy định của pháp luật về đất đai mà chưa phân chia thừa\n\n\f42\n\nCÔNG BÁO/Số 363 + 364/Ngày 01-3-2024\n\nkế quyền sử dụng đất cho từng người nhận thừa kế thì những người nhận thừa kế",
+            "toàn dân về đất đai, thực hiện nhiệm vụ thống nhất quản lý nhà nước về đất đai.\n\n2. Người sử dụng đất.\n\n3. Các đối tượng khác có liên quan đến việc quản lý, sử dụng đất đai.\n\nĐiều 3. Giải thích từ ngữ\n\nTrong Luật này, các từ ngữ dưới đây được hiểu như sau:"
+          ],
+          "reference": "Đối tượng áp dụng gồm cơ quan nhà nước, người sử dụng đất và các đối tượng khác có liên quan.",
+          "source_ids": [
+            "legal/policy-a.md::chunk-1",
+            "legal/policy-b.md::chunk-3",
+            "legal/policy-a.md::chunk-61",
+            "legal/policy-a.md::chunk-191",
+            "legal/policy-a.md::chunk-2"
+          ],
+          "faithfulness": 1.0,
+          "answer_relevancy": 0.6763481077623342,
+          "context_recall": 1.0,
+          "context_precision": 0.8041666666465626
+        },
+        {
+          "user_input": "Bản đồ địa chính được hiểu là gì?",
+          "response": "Bản đồ địa chính là bản đồ thể hiện các thửa đất và các đối tượng địa lý có liên quan, lập theo đơn vị hành chính cấp xã hoặc theo đơn vị hành chính cấp huyện nơi không thành lập đơn vị hành chính cấp xã, được cơ quan nhà nước có thẩm quyền xác nhận [Document 5].",
+          "retrieved_contexts": [
+            "Điều 50. Đo đạc lập bản đồ địa chính\n\n1. Bản đồ địa chính là cơ sở để phục vụ công tác quản lý nhà nước về đất đai\nvà xây dựng cơ sở dữ liệu quốc gia về đất đai. Việc đo đạc lập bản đồ địa chính\nđược thực hiện chi tiết đến từng thửa đất theo đơn vị hành chính cấp xã; nơi không\nthành lập đơn vị hành chính cấp xã thì được lập theo đơn vị hành chính cấp huyện.",
+            "1. Bản đồ địa chính là bản đồ thể hiện các thửa đất và các đối tượng địa lý có\nliên  quan,  lập  theo  đơn  vị  hành  chính  cấp  xã  hoặc  theo  đơn  vị  hành  chính  cấp\nhuyện nơi không thành lập đơn vị hành chính cấp xã, được cơ quan nhà nước có\nthẩm quyền xác nhận.\n\n2. Bản đồ hiện trạng sử dụng đất là bản đồ thể hiện sự phân bố các loại đất tại\nmột thời điểm xác định, được lập theo từng đơn vị hành chính các cấp, theo từng\nvùng kinh tế - xã hội.\n\n\f4\n\nCÔNG BÁO/Số 363 + 364/Ngày 01-3-2024",
+            "2. Bản đồ địa chính phải được chỉnh lý khi có sự thay đổi về hình dạng, kích\nthước, diện tích thửa đất và các yếu tố khác có liên quan đến nội dung bản đồ địa\nchính và đồng thời được cập nhật vào cơ sở dữ liệu quốc gia về đất đai.\n\n3. Ủy ban nhân dân cấp tỉnh có trách nhiệm tổ chức thực hiện việc đo đạc lập,\nchỉnh lý, quản lý bản đồ địa chính ở địa phương và cập nhật vào cơ sở dữ liệu quốc\ngia về đất đai.\n\n4. Chính phủ quy định chi tiết Điều này.",
+            "4\n\nCÔNG BÁO/Số 363 + 364/Ngày 01-3-2024\n\n3. Bản đồ quy hoạch sử dụng đất là bản đồ được lập tại thời điểm đầu kỳ quy\nhoạch, thể hiện nội dung phân bố các loại đất tại thời điểm cuối kỳ quy hoạch của\nquy hoạch đó.\n\n4. Bảo vệ, cải tạo, phục hồi đất là việc áp dụng các biện pháp quản lý, kỹ thuật,\ncơ giới, sinh học, hữu cơ tác động vào đất để xử lý đất bị ô nhiễm, phục hồi đất bị\nthoái hóa.\n\n5. Bồi thường về đất là việc Nhà nước trả lại giá trị quyền sử dụng đất của diện",
+            "sử dụng đất đai.\n\n2. Tuyên truyền, phổ biến, giáo dục, đào tạo, nghiên cứu khoa học, phát triển\n\ncông nghệ, hợp tác quốc tế trong quản lý, sử dụng đất đai.\n\n3. Xác định địa giới đơn vị hành chính, lập và quản lý hồ sơ địa giới đơn vị\n\nhành chính.\n\n4. Đo đạc, chỉnh lý, lập bản đồ địa chính, bản đồ hiện trạng sử dụng đất,\nbản đồ quy hoạch sử dụng đất và các bản đồ chuyên ngành về quản lý, sử dụng đất.\n\n5. Điều tra, đánh giá và bảo vệ, cải tạo, phục hồi đất đai."
+          ],
+          "reference": "Bản đồ địa chính thể hiện các thửa đất và đối tượng địa lý liên quan theo đơn vị hành chính và được cơ quan có thẩm quyền xác nhận.",
+          "source_ids": [
+            "legal/policy-a.md::chunk-228",
+            "legal/policy-a.md::chunk-3",
+            "legal/policy-a.md::chunk-229",
+            "legal/policy-a.md::chunk-4",
+            "legal/policy-a.md::chunk-81"
+          ],
+          "faithfulness": 1.0,
+          "answer_relevancy": 0.686415732118522,
+          "context_recall": 1.0,
+          "context_precision": 0.94999999997625
+        },
+        {
+          "user_input": "Luật Nhà ở số 27/2023/QH15 có hiệu lực từ thời điểm nào?",
+          "response": "Luật Nhà ở số 27/2023/QH15 có hiệu lực từ ngày 01 tháng 8 năm 2024 [Document 1].",
+          "retrieved_contexts": [
+            "CỘNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAM\nĐộc lập - Tự do - Hạnh phúc\nLUẬT\nNHÀ Ở\nLuật Nhà ở số 27/2023/QH15 ngày 27 tháng 11 năm 2023 của Quốc hội, có\nhiệu lực kể từ ngày 01 tháng 8 năm 20241, được sửa đổi, bổ sung bởi:\n1. Luật số 43/2024/QH15 ngày 29 tháng 6 năm 2024 của Quốc hội sửa đổi,\nbổ sung một số điều của Luật Đất đai số 31/2024/QH15, Luật Nhà ở số\n27/2023/QH15, Luật Kinh doanh bất động sản số 29/2023/QH15 và Luật Các tổ\nchức tín dụng số 32/2024/QH15, có hiệu lực kể từ ngày 01 tháng 8 năm 2024;",
+            "đổi hiệu lực thành từ ngày 01 tháng 8 năm 2024 theo quy định tại Điều 2 của Luật số\n43/2024/QH15 sửa đổi, bổ sung một số điều của Luật Đất đai số 31/2024/QH15, Luật Nhà ở số\n27/2023/QH15, Luật Kinh doanh bất động sản số 29/2023/QH15 và Luật Các tổ chức tín dụng\nsố 32/2024/QH15, có hiệu lực kể từ ngày 01 tháng 8 năm 2024.\n2 Luật số 43/2024/QH15 Luật sửa đổi, bổ sung một số điều của Luật Đất đai số\n31/2024/QH15, Luật Nhà ở số 27/2023/QH15, Luật Kinh doanh bất động sản số 29/2023/QH15",
+            "khẩu, Luật Đầu tư, Luật Đầu tư công, Luật Quản lý, sử dụng tài sản công, có hiệu\nlực kể từ ngày 01 tháng 7 năm 2025;\n5. Luật Khoa học, công nghệ và đổi mới sáng tạo số 93/2025/QH15 ngày 27\ntháng 6 năm 2025 của Quốc hội, có hiệu lực kể từ ngày 01 tháng 10 năm 2025.\nCăn cứ Hiến pháp nước Cộng hòa xã hội chủ nghĩa Việt Nam;\nQuốc hội ban hành Luật Nhà ở2.\n1 Luật Nhà ở số 27/2023/QH15 có hiệu lực kể từ ngày 01 tháng 01 năm 2025 được sửa",
+            "Luật này; trường hợp nội dung của kế hoạch phát triển nhà ở cấp tỉnh không phù\n30 Khoản này được sửa đổi, bổ sung theo quy định tại Điều 2 của Luật số 43/2024/QH15\nsửa đổi, bổ sung một số điều của Luật Đất đai số 31/2024/QH15, Luật Nhà ở số 27/2023/QH15,\nLuật Kinh doanh bất động sản số 29/2023/QH15 và Luật Các tổ chức tín dụng số\n32/2024/QH15, có hiệu lực kể từ ngày 01 tháng 8 năm 2024.",
+            "pháp luật về quy hoạch, các Bộ, cơ quan ngang Bộ, Ủy ban nhân dân cấp tỉnh xây\ndựng kế hoạch đầu tư phát triển và tổ chức xây dựng hệ thống kết cấu hạ tầng kỹ\nthuật, hạ tầng xã hội ngoài hàng rào khu công nghiệp, khu chế xuất, khu công\n29 Điều 5 của Luật số 43/2024/QH15 sửa đổi, bổ sung một số điều của Luật Đất đai số\n31/2024/QH15, Luật Nhà ở số 27/2023/QH15, Luật Kinh doanh bất động sản số 29/2023/QH15\nvà Luật Các tổ chức tín dụng số 32/2024/QH15, có hiệu lực kể từ ngày 01 tháng 8 năm 2024"
+          ],
+          "reference": "Luật Nhà ở số 27/2023/QH15 có hiệu lực kể từ ngày 01 tháng 8 năm 2024 theo nội dung tài liệu.",
+          "source_ids": [
+            "legal/policy-c.md::chunk-0",
+            "legal/policy-c.md::chunk-3",
+            "legal/policy-c.md::chunk-2",
+            "legal/policy-c.md::chunk-776",
+            "legal/policy-c.md::chunk-765"
+          ],
+          "faithfulness": 0.5,
+          "answer_relevancy": 0.9677557170018619,
+          "context_recall": 1.0,
+          "context_precision": 0.8874999999778125
+        },
+        {
+          "user_input": "Theo Luật Nhà ở, nhà ở là gì?",
+          "response": "Theo Luật Nhà ở, nhà ở là \"công trình xây dựng với mục đích để ở và phục vụ nhu cầu sinh hoạt của gia đình, cá nhân.\" [Document 4]",
+          "retrieved_contexts": [
+            "thực hiện dự án đầu tư xây dựng nhà ở theo quy định của Luật này.\n15. Phát triển nhà ở là việc đầu tư xây dựng mới, xây dựng lại hoặc cải tạo\nnhà ở làm tăng diện tích nhà ở.\n16. Cải tạo nhà ở là việc nâng cấp chất lượng, tăng diện tích hoặc điều chỉnh\ncơ cấu diện tích của nhà ở hiện có.\n17. Bảo trì nhà ở là việc duy tu, bảo dưỡng theo định kỳ và sửa chữa nhà ở\nkhi có hư hỏng nhằm duy trì chất lượng, hoạt động bình thường, an toàn của nhà\nở trong quá trình khai thác, sử dụng.",
+            "xây dựng với mục đích để ở và nhà chung cư được xây dựng có mục đích sử dụng\nhỗn hợp.\n4. Nhà ở thương mại là nhà ở được đầu tư xây dựng để bán, cho thuê mua,\ncho thuê theo cơ chế thị trường.\n5. Nhà ở công vụ là nhà ở được dùng để bố trí cho đối tượng thuộc trường\nhợp được ở nhà ở công vụ thuê trong thời gian đảm nhận chức vụ, công tác theo\nquy định của Luật này.\n6. Nhà ở phục vụ tái định cư là nhà ở để bố trí cho đối tượng thuộc trường",
+            ". Theo nghĩa đó, thì thoạt trông hầu như không có gì khác biệt giữa luật dân sự và tư pháp: tư pháp cũng bao gồm các quy tắc xử sự chi phối các mối quan hệ giữa người và người; trong khi công pháp là tập hợp các quy tắc xử sự chung chi phối các mối quan hệ trong đó có sự tham gia của Nhà nước, cơ quan Nhà nước, hoặc nhân viên Nhà nước thi hành công vụ (Luật hiến pháp, Luật hành chính, Luật hình sự,...).",
+            "của pháp luật về kinh doanh bất động sản.\nĐiều 2. Giải thích từ ngữ\nTrong Luật này, các từ ngữ dưới đây được hiểu như sau:\n1. Nhà ở là công trình xây dựng với mục đích để ở và phục vụ nhu cầu sinh\nhoạt của gia đình, cá nhân. Nhà ở được sử dụng vào mục đích để ở và mục đích\nkhông phải để ở mà pháp luật không cấm là nhà ở có mục đích sử dụng hỗn hợp.\n2. Nhà ở riêng lẻ là nhà ở được xây dựng trên thửa đất ở riêng biệt thuộc",
+            "Điều 15 của Luật này.\n3. Người sử dụng nhà ở không phải là chủ sở hữu nhà ở phải thực hiện nghĩa\nvụ trong việc quản lý, sử dụng nhà ở theo thỏa thuận với chủ sở hữu nhà ở, quy\nđịnh của Luật này và quy định khác của pháp luật có liên quan.\nĐiều 12. Thời điểm xác lập quyền sở hữu nhà ở\n1. Trường hợp trực tiếp đầu tư xây dựng nhà ở thì thời điểm xác lập quyền\nsở hữu nhà ở là thời điểm đã hoàn thành việc xây dựng nhà ở theo quy định của\npháp luật về xây dựng."
+          ],
+          "reference": "Nhà ở là công trình xây dựng nhằm để ở và phục vụ nhu cầu sinh hoạt của gia đình hoặc cá nhân.",
+          "source_ids": [
+            "legal/policy-c.md::chunk-14",
+            "legal/policy-c.md::chunk-9",
+            "legal/policy-b.md::chunk-2",
+            "legal/policy-c.md::chunk-7",
+            "legal/policy-c.md::chunk-70"
+          ],
+          "faithfulness": 1.0,
+          "answer_relevancy": 0.8296998584925859,
+          "context_recall": 1.0,
+          "context_precision": 0.8874999999778125
+        },
+        {
+          "user_input": "Nhà ở xã hội được định nghĩa như thế nào?",
+          "response": "Nhà ở xã hội được định nghĩa là \"nhà ở có sự hỗ trợ của Nhà nước cho đối tượng được hưởng chính sách hỗ trợ nhà ở theo quy định của Luật này\" [Document 1].",
+          "retrieved_contexts": [
+            "hợp được tái định cư khi Nhà nước thu hồi đất ở, giải tỏa nhà ở theo quy định của\npháp luật.\n7. Nhà ở xã hội là nhà ở có sự hỗ trợ của Nhà nước cho đối tượng được\nhưởng chính sách hỗ trợ nhà ở theo quy định của Luật này.\nLuật Thanh tra số 84/2025/QH15 có căn cứ ban hành như sau:\n“Căn cứ Hiến pháp nước Cộng hòa xã hội chủ nghĩa Việt Nam đã được sửa đổi, bổ sung\nmột số điều theo Nghị quyết số 203/2025/QH15;\nQuốc hội ban hành Luật Thanh tra.”.",
+            "bán, cho thuê mua, cho thuê, không được chuyển nhượng quyền sử dụng đất để\ncá nhân tự xây dựng nhà ở.\nĐiều 82. Loại nhà và tiêu chuẩn diện tích nhà ở xã hội\n1. Loại nhà và tiêu chuẩn diện tích nhà ở xã hội được quy định như sau:\na) Nhà ở xã hội là nhà chung cư, được đầu tư xây dựng theo dự án, phù hợp",
+            "1. Chủ thể của quan hệ pháp luật dân sự gồm những ai?\n2. Các chủ thể của quan hệ pháp luật dân sự có những quyền và nghĩa vụ gì?\n3. Các quyền và nghĩa vụ này được xác lập như thế nào?\n4. Luật dự liệu những biện pháp gì để bảo đảm thực hiện các quyền và nghĩa vụ đó?\n\n### 1. Chủ thể của quan hệ pháp luật dân sự\n\nCác chủ thể của quan hệ pháp luật dân sự trong luật thực định bao gồm: cá nhân, pháp nhân, hộ gia đình và tổ hợp tác.\n\n#### 1.1. Cá nhân",
+            "#### 1.2. Pháp nhân\n\nLà một tổ chức tồn tại vì một mục đích nào đó. Pháp nhân phải có những yếu tố lý lịch cơ bản rõ ràng cho phép phân biệt với cá nhân các thành viên của nó và với các pháp nhân khác. Pháp nhân có năng lực pháp luật và năng lực hành vi phù hợp với mục đích tồn tại của mình: có những pháp nhân (như quỹ xã hội, quỹ từ thiện) không thể có những quyền và nghĩa vụ của thương nhân; không pháp nhân nào có thể có quyền và nghĩa vụ của người thừa kế theo pháp luật.",
+            "66\nvới quy hoạch chi tiết theo pháp luật về quy hoạch đô thị và nông thôn20 đã được\nphê duyệt. Trường hợp dự án đầu tư xây dựng nhà ở xã hội được đầu tư xây dựng\ntại xã thuộc vùng đồng bào dân tộc thiểu số và miền núi theo quy định của Thủ\ntướng Chính phủ thì được xây dựng nhà ở riêng lẻ;\nb) Trường hợp nhà ở xã hội là nhà chung cư thì căn hộ phải được thiết kế,\nxây dựng theo quy chuẩn kỹ thuật quốc gia về nhà chung cư và tiêu chuẩn diện\ntích nhà ở xã hội;"
+          ],
+          "reference": "Nhà ở xã hội là nhà ở có sự hỗ trợ của Nhà nước cho đối tượng được hưởng chính sách hỗ trợ nhà ở.",
+          "source_ids": [
+            "legal/policy-c.md::chunk-10",
+            "legal/policy-c.md::chunk-380",
+            "legal/policy-b.md::chunk-9",
+            "legal/policy-b.md::chunk-17",
+            "legal/policy-c.md::chunk-381"
+          ],
+          "faithfulness": 0.5,
+          "answer_relevancy": 0.7160461939729365,
+          "context_recall": 1.0,
+          "context_precision": 0.8666666666377778
+        },
+        {
+          "user_input": "Luật dân sự Việt Nam giải quyết bốn vấn đề lớn nào?",
+          "response": "Luật dân sự Việt Nam giải quyết bốn vấn đề lớn bao gồm:\n1. Chủ thể của quan hệ pháp luật dân sự gồm những ai? [Document 2]\n2. Các chủ thể của quan hệ pháp luật dân sự có những quyền và nghĩa vụ gì? [Document 2]\n3. Các quyền và nghĩa vụ này được xác lập như thế nào? [Document 2]\n4. Luật dự liệu những biện pháp gì để bảo đảm thực hiện các quyền và nghĩa vụ đó? [Document 2]",
+          "retrieved_contexts": [
+            "Ta lần lượt tìm hiểu đối tượng điều chỉnh của luật dân sự, nguồn của luật dân sự và sự tiến triển của pháp luật dân sự trong luật Việt Nam.\n\n## MỤC 1 - ĐỐI TƯỢNG ĐIỀU CHỈNH CỦA LUẬT DÂN SỰ\n\nDựa vào định nghĩa của luật viết hiện hành, có thể xác định rằng luật dân sự Việt Nam giải quyết bốn vấn đề lớn:",
+            "# BÀI 1 - GIỚI THIỆU LUẬT DÂN SỰ VIỆT NAM\n\n## Luật và luật dân sự\n\nLuật là tập hợp những quy tắc xử sự chung mà sự tôn trọng (đối với những quy tắc ấy) được bảo đảm bằng các biện pháp cưỡng chế của bộ máy Nhà nước.",
+            "1. Chủ thể của quan hệ pháp luật dân sự gồm những ai?\n2. Các chủ thể của quan hệ pháp luật dân sự có những quyền và nghĩa vụ gì?\n3. Các quyền và nghĩa vụ này được xác lập như thế nào?\n4. Luật dự liệu những biện pháp gì để bảo đảm thực hiện các quyền và nghĩa vụ đó?\n\n### 1. Chủ thể của quan hệ pháp luật dân sự\n\nCác chủ thể của quan hệ pháp luật dân sự trong luật thực định bao gồm: cá nhân, pháp nhân, hộ gia đình và tổ hợp tác.\n\n#### 1.1. Cá nhân",
+            "luật về dân sự và thực hiện theo quy định sau đây:\na) Nếu là cá nhân trong nước thì không bắt buộc phải có đăng ký cư trú tại\nnơi có nhà ở được giao dịch;\nb) Nếu là cá nhân nước ngoài, người Việt Nam định cư ở nước ngoài thì phải\nthuộc đối tượng được sở hữu nhà ở tại Việt Nam theo quy định của Luật này và\nkhông bắt buộc phải có đăng ký cư trú tại nơi có nhà ở được giao dịch. Đối với\nngười Việt Nam định cư ở nước ngoài còn phải tuân thủ quy định của Luật Đất đai.",
+            "Luật dân sự, trong quan niệm của luật Việt Nam hiện đại, là tập hợp các quy tắc quy định địa vị pháp lý của cá nhân, pháp nhân và các chủ thể khác (hộ gia đình, tổ hợp tác), quy định quyền và nghĩa vụ của các chủ thể trong quan hệ tài sản, quan hệ nhân thân trong giao lưu dân sự, xây dựng chuẩn mực pháp lý cho cách ứng xử của các chủ thể khi tham gia quan hệ dân sự (BLDS năm 1995 - BLDS - Điều 1 đoạn 2)"
+          ],
+          "reference": "Bốn vấn đề gồm chủ thể, quyền và nghĩa vụ, cách xác lập quyền nghĩa vụ và biện pháp bảo đảm thực hiện.",
+          "source_ids": [
+            "legal/policy-b.md::chunk-8",
+            "legal/policy-b.md::chunk-0",
+            "legal/policy-b.md::chunk-9",
+            "legal/policy-c.md::chunk-669",
+            "legal/policy-b.md::chunk-7"
+          ],
+          "faithfulness": 1.0,
+          "answer_relevancy": 0.81168782157728,
+          "context_recall": 1.0,
+          "context_precision": 0.7555555555303703
+        },
+        {
+          "user_input": "Năng lực pháp luật của cá nhân bắt đầu và chấm dứt khi nào?",
+          "response": "Năng lực pháp luật của cá nhân bắt đầu từ khi cá nhân được sinh ra và kết thúc khi cá nhân chết [Document 1].",
+          "retrieved_contexts": [
+            "Là khả năng của cá nhân được hưởng quyền hoặc đảm nhận tư cách người có nghĩa vụ (BLDS Điều 14 khoản 1). Năng lực pháp luật của cá nhân có từ khi cá nhân được sinh ra và mất đi khi cá nhân chết (Điều 14 khoản 3)",
+            ". Luật nói rằng mọi cá nhân đều có năng lực pháp luật dân sự như nhau (Điều 14 khoản 2); song, có khi cá nhân không thể có một quyền nào đó mà tất cả những cá nhân khác đều có thể có, như trong trường hợp người không có quyền hưởng di sản do đã có một trong những hành vi được ghi nhận tại BLDS Điều 643 khoản 1. Ta nói rằng cá nhân có thể mất năng lực pháp luật ngay khi còn sống trong những trường hợp đặc biệt",
+            ". Tất cả những giao dịch của người không có hoặc mất năng lực hành vi dân sự đều chỉ có thể được xác lập thông qua người đại diện. Ta nói rằng luật có ghi nhận tình trạng không có hoặc mất năng lực hành vi tổng quát. Tình trạng không có năng lực hành vi tổng quát luôn có tính chất tạm thời và sẽ chấm dứt sau một thời gian; trong khi tình trạng mất năng lực hành vi tổng quát có thể kéo dài không thời hạn.",
+            "#### 1.1. Cá nhân\n\nLà con người cụ thể và đang sống. Cá nhân phải có hộ tịch rõ ràng, cho phép phân biệt được với cá nhân khác. Mọi cá nhân không nhất thiết đều có quyền và nghĩa vụ giống nhau, dù tất cả các cá nhân đều bình đẳng trước pháp luật. Việc xác định quyền và nghĩa vụ của mỗi cá nhân lệ thuộc vào kết quả đánh giá năng lực pháp luật và năng lực hành vi của cá nhân đó.\n\n##### Năng lực pháp luật",
+            ". Song nội dung năng lực pháp luật của hộ gia đình được xác định theo những nguyên tắc gần giống với những nguyên tắc xác định năng lực pháp luật của cá nhân; bởi vậy, hộ gia đình, trên nguyên tắc, có khả năng có quyền và nghĩa vụ như cá nhân, trừ những quyền và nghĩa vụ mà chỉ cá nhân mới có thể có được, như quyền thừa kế theo pháp luật, quyền kết hôn, quyền và nghĩa vụ của cha, mẹ đối với con cái,..."
+          ],
+          "reference": "Năng lực pháp luật của cá nhân có từ khi sinh ra và mất đi khi cá nhân chết.",
+          "source_ids": [
+            "legal/policy-b.md::chunk-11",
+            "legal/policy-b.md::chunk-12",
+            "legal/policy-b.md::chunk-16",
+            "legal/policy-b.md::chunk-10",
+            "legal/policy-b.md::chunk-20"
+          ],
+          "faithfulness": 1.0,
+          "answer_relevancy": 0.8798029143901596,
+          "context_recall": 1.0,
+          "context_precision": 0.999999999975
+        },
+        {
+          "user_input": "Người chưa đủ sáu tuổi có năng lực hành vi dân sự không?",
+          "response": "Theo BLDS Điều 21, người chưa đủ sáu tuổi không có năng lực hành vi dân sự [Document 1]. Do đó, người chưa đủ sáu tuổi không có năng lực hành vi dân sự.",
+          "retrieved_contexts": [
+            "Là khả năng của cá nhân bằng hành vi của mình xác lập, thực hiện quyền, nghĩa vụ dân sự (BLDS Điều 17). Khác với năng lực pháp luật, năng lực hành vi chỉ được thừa nhận cho những cá nhân có đủ các điều kiện do pháp luật quy định: người chưa đủ sáu tuổi không có năng lực hành vi dân sự (Điều 21); người bị bệnh tâm thần hoặc mắc các bệnh khác mà không thể nhận thức, làm chủ được hành vi của mình có thể bị tuyên bố mất năng lực hành vi dân sự theo quyết định của toà án (Điều 22 khoản 1)",
+            ". Luật nói rằng mọi cá nhân đều có năng lực pháp luật dân sự như nhau (Điều 14 khoản 2); song, có khi cá nhân không thể có một quyền nào đó mà tất cả những cá nhân khác đều có thể có, như trong trường hợp người không có quyền hưởng di sản do đã có một trong những hành vi được ghi nhận tại BLDS Điều 643 khoản 1. Ta nói rằng cá nhân có thể mất năng lực pháp luật ngay khi còn sống trong những trường hợp đặc biệt",
+            ". Tất cả những giao dịch của người không có hoặc mất năng lực hành vi dân sự đều chỉ có thể được xác lập thông qua người đại diện. Ta nói rằng luật có ghi nhận tình trạng không có hoặc mất năng lực hành vi tổng quát. Tình trạng không có năng lực hành vi tổng quát luôn có tính chất tạm thời và sẽ chấm dứt sau một thời gian; trong khi tình trạng mất năng lực hành vi tổng quát có thể kéo dài không thời hạn.",
+            "#### 1.1. Cá nhân\n\nLà con người cụ thể và đang sống. Cá nhân phải có hộ tịch rõ ràng, cho phép phân biệt được với cá nhân khác. Mọi cá nhân không nhất thiết đều có quyền và nghĩa vụ giống nhau, dù tất cả các cá nhân đều bình đẳng trước pháp luật. Việc xác định quyền và nghĩa vụ của mỗi cá nhân lệ thuộc vào kết quả đánh giá năng lực pháp luật và năng lực hành vi của cá nhân đó.\n\n##### Năng lực pháp luật",
+            "Là khả năng của cá nhân được hưởng quyền hoặc đảm nhận tư cách người có nghĩa vụ (BLDS Điều 14 khoản 1). Năng lực pháp luật của cá nhân có từ khi cá nhân được sinh ra và mất đi khi cá nhân chết (Điều 14 khoản 3)"
+          ],
+          "reference": "Người chưa đủ sáu tuổi không có năng lực hành vi dân sự.",
+          "source_ids": [
+            "legal/policy-b.md::chunk-15",
+            "legal/policy-b.md::chunk-12",
+            "legal/policy-b.md::chunk-16",
+            "legal/policy-b.md::chunk-10",
+            "legal/policy-b.md::chunk-11"
+          ],
+          "faithfulness": 1.0,
+          "answer_relevancy": 0.6420051375656259,
+          "context_recall": 1.0,
+          "context_precision": 0.99999999998
+        },
+        {
+          "user_input": "Robot Figure 02 đã làm việc tại nhà máy BMW trong bao lâu và đạt kết quả gì?",
+          "response": "The robot Figure 02 worked at the BMW factory in Spartanburg for about 11 months. During this time, Figure 02 worked over 1,250 hours, traveled approximately 320 km within the facility, participated in the production of over 30,000 BMW X3 cars, and handled more than 90,000 metal sheets [Document 1].",
+          "retrieved_contexts": [
+            "**Figure AI**\nStartup Mỹ Figure AI đang phát triển robot hình người đa năng làm việc trong nhà máy, hướng tới mở rộng sang trợ giúp trong gia đình. Figure AI đã chứng minh công nghệ trên dây chuyền sản xuất thực tế thay vì chỉ trình diễn.\nNăm ngoái, robot Figure 02 làm việc trong nhà máy BMW ở Spartanburg khoảng 11 tháng. Tổng cộng, Figure 02 làm việc hơn 1.250 giờ và đi khoảng 320 km bên trong cơ sở, tham gia sản xuất hơn 30.000 xe BMW X3 và bốc xếp hơn 90.000 tấm kim loại.",
+            "Kinh nghiệm từ quá trình triển khai thực tế Figure 02 giúp các kỹ sư điều chỉnh thiết kế của Figure 03, robot hình người thế hệ tiếp theo mà công ty khẳng định sẵn sàng để triển khai trên quy mô lớn. Figure 03 trang bị Helix 02, hệ thống AI giúp chuyển đổi thông tin hình ảnh và chỉ dẫn bằng ngôn ngữ tự nhiên thành hành động cho robot.",
+            "![Agibot, Figure AI livestream robot hình người làm việc trong nhà máy](https://iv1.vnecdn.net/vnexpress/images/web/2026/06/24/agibot-figure-ai-livestream-robot-hinh-nguoi-lam-viec-trong--1782270512.jpg?w=0&h=0&q=100&dpr=1&fit=crop&s=mBf-33vj1P32YQGhwVLcyA)\nAgibot, Figure AI livestream robot hình người làm việc trong nhà máy\nQuá trình robot Agibot G2 làm việc trong nhà máy Longcheer được livestream vào tháng 6, tỷ lệ thành công đạt 99,95%. Video: _YouTube/Agibot_\n**Apptronik**",
+            "Hồi tháng 5, Figure AI phát trực tiếp quá trình một nhóm robot Figure 03 thử nghiệm hoạt động trên băng chuyền với tốc độ tương đương con người. Nhiệm vụ của chúng gồm phát hiện mã vạch trên bao bì, nhặt gói hàng và đưa lên băng chuyền với mặt in mã vạch úp xuống. Chúng tự động thay phiên nhau nhằm đảm bảo công việc diễn ra 24/7, không bị gián đoạn.",
+            "Theo _Global Times,_ UBTech Robotics tuần trước bắt đầu vận hành nhà máy mới tại Liễu Châu, tỉnh Quảng Tây, với khả năng sản xuất 10.000 robot hình người mỗi năm. Điểm đặc biệt là tại nhà máy, robot không chỉ là sản phẩm mà còn đóng vai trò \"công nhân\". Trên dây chuyền, những mẫu robot hình người công nghiệp thông minh của hãng như Cruzr Y1 và Cruzr S2 tham gia xếp dỡ hàng, xử lý vật liệu.\n**Tesla**"
+          ],
+          "reference": "Figure 02 làm việc khoảng 11 tháng, hơn 1.250 giờ, đi khoảng 320 km, tham gia sản xuất hơn 30.000 xe và bốc xếp hơn 90.000 tấm kim loại.",
+          "source_ids": [
+            "news/article_02.md::chunk-12",
+            "news/article_02.md::chunk-13",
+            "news/article_02.md::chunk-22",
+            "news/article_02.md::chunk-14",
+            "news/article_02.md::chunk-29"
+          ],
+          "faithfulness": 1.0,
+          "answer_relevancy": 0.8136119767486626,
+          "context_recall": 1.0,
+          "context_precision": 0.7555555555303703
+        },
+        {
+          "user_input": "Robot hình người G1 của Unitree Robotics có giá khởi điểm khoảng bao nhiêu?",
+          "response": "The Unitree Robotics G1 humanoid robot has an initial price of around 13,500 USD [Document 1].",
+          "retrieved_contexts": [
+            "Unitree Robotics ban đầu nổi tiếng với những robot 4 bốn chân nhanh nhẹn trước khi gia nhập thị trường robot hình người. Sản phẩm của công ty được đánh giá có khả năng kiểm soát thăng bằng tốt, bộ truyền động nhỏ gọn mạnh mẽ, chuyển động linh hoạt và phần cứng có giá phải chăng. Robot hình người G1 của Unitree Robotics có giá khởi điểm khoảng 13.500 USD, phù hợp làm đối tượng nghiên cứu và thử nghiệm công nghệ cho nhà phát triển, trường đại học, phòng thí nghiệm.\n**AgiBot**",
+            "**Unitree Robotics**\nTheo công ty nghiên cứu thị trường Smart Analytics Global (SAG), Trung Quốc chiếm 97% số robot hình người xuất xưởng nửa đầu năm nay. Công ty Trung Quốc Unitree Robotics xếp thứ hai trong danh sách với 5.900 robot, chiếm 31% thị phần toàn cầu.",
+            "Nổi tiếng với khả năng vận động linh hoạt, có thể nhảy múa, đấu võ trên sân khấu, robot hình người của Unitree Robotics cũng tham gia nhiều công việc ngoài đời thực. Theo _Guardian_ , tại Nhật Bản, hãng Japan Airlines triển khai thử nghiệm robot của startup này từ đầu tháng 5 như một giải pháp lâu dài cho tình trạng thiếu hụt lao động. Chúng giúp vận chuyển hành lý và hàng hóa của hành khách tại sân bay Haneda, nơi phục vụ hơn 60 triệu lượt khách mỗi năm.",
+            "Apptronik đã huy động khoảng một tỷ USD và được định giá hơn 5,5 tỷ USD. Mercedes, một trong những nhà đầu tư của startup, sử dụng robot Apollo trong nhà máy cho nhiệm vụ đơn giản như thu gom linh kiện, dụng cụ cho dây chuyền lắp ráp. DeepMind, bộ phận nghiên cứu AI của Google, cũng dùng Apollo để cải tiến Gemini Robotics - mô hình AI của Google dành cho robot.\n**UBTech Robotics**",
+            "**UBTech Robotics**\nUBTech Robotics là một trong những nhà sản xuất robot hình người hàng đầu Trung Quốc, xuất xưởng 1.079 robot năm ngoái và 700 robot nửa đầu năm nay."
+          ],
+          "reference": "Robot G1 có giá khởi điểm khoảng 13.500 USD.",
+          "source_ids": [
+            "news/article_02.md::chunk-18",
+            "news/article_02.md::chunk-16",
+            "news/article_02.md::chunk-17",
+            "news/article_02.md::chunk-25",
+            "news/article_02.md::chunk-26"
+          ],
+          "faithfulness": 0.5,
+          "answer_relevancy": 0.9235355014859726,
+          "context_recall": 1.0,
+          "context_precision": 0.8333333332916666
+        },
+        {
+          "user_input": "Gemini đã tấn công những hệ thống như thế nào trong bài viết?",
+          "response": "Gemini đã tấn công một số hệ thống của ba công ty bằng cách đoán mật khẩu đăng nhập khi thực hiện bài kiểm tra [Document 1].",
+          "retrieved_contexts": [
+            "#  Gemini tấn công mạng, đoán mật khẩu người dùng \nGoogle thừa nhận mô hình Gemini đã tấn công một số hệ thống của ba công ty bằng cách đoán mật khẩu đăng nhập khi thực hiện bài kiểm tra.\n_WSJ_ cho biết cuộc tấn công của Gemini xảy ra từ tháng 5, nhưng chỉ được Google phát hiện sau đó hai tháng. Đây là diễn biến mới nhất trong các vụ AI mất kiểm soát, vốn gây ra nhiều lo ngại về an toàn trên Internet.",
+            "Thứ bảy, 19/9/2026, 18:00 (GMT+7)\n[ ](https://vnexpress.net/ \"VNE\")\n##  Gemini tấn công mạng, đoán mật khẩu người dùng\n  * [](https://www.facebook.com/congdongvnexpress \"Chia sẻ bài viết lên Facebook\")\n  * [](https://twitter.com/VnEnews \"Chia sẻ bài viết lên X\")\n  * [](javascript:; \"Chia sẻ bài viết lên Linkedin\")\n  * [ ](https://vnexpress.net/gemini-tan-cong-mang-doan-mat-khau-nguoi-dung-5122237.html#box_comment_vne \"Ý kiến\")\n  * [](javascript:; \"In\")",
+            "[ ](javascript:;)\n  * [](https://www.facebook.com/congdongvnexpress \"Chia sẻ bài viết lên facebook\")\n  * [](https://twitter.com/VnEnews \"Chia sẻ bài viết lên twitter\")\n  * [](javascript:; \"Chia sẻ bài viết lên Linkedin\")\n  * [](https://vnexpress.net/gemini-tan-cong-mang-doan-mat-khau-nguoi-dung-5122237.html#box_comment_vne \"Bình luận\")\n  * [](javascript:; \"In\")\n  * [Trở lại Khoa học công nghệ](https://vnexpress.net/khoa-hoc-cong-nghe)",
+            "Adkins nhấn mạnh mô hình đã ngừng nỗ lực xâm nhập, nhưng không nêu cụ thể tổ chức bị tấn công. \"Chúng tôi đã thông báo cho cả ba tổ chức, cũng như phối hợp với đối tác huấn luyện để áp dụng những thay đổi vào quy trình thử nghiệm\", bà nói.\n![Hình ảnh trình chiếu giao diện ứng dụng Gemini AI tại một sự kiện công nghệ ở TP HCM. Ảnh: Bảo Lâm](https://i1-vnexpress.vnecdn.net/2026/09/19/wm1-wm1-dsc01105-jpg-1789803739-3508-1789803808.jpg?w=1020&h=0&q=100&dpr=1&fit=crop&s=-FKIEhOFiuTM7sbNWb_urA)",
+            "# Gemini tấn công mạng, đoán mật khẩu người dùng - Báo VnExpress\n\n**Source:** https://vnexpress.net/gemini-tan-cong-mang-doan-mat-khau-nguoi-dung-5122237.html\n\n**Crawled:** 2026-09-20T15:16:55.981510\n\n---"
+          ],
+          "reference": "Google thừa nhận Gemini đã tấn công hệ thống của ba công ty bằng cách đoán mật khẩu đăng nhập trong một bài kiểm tra.",
+          "source_ids": [
+            "news/article_03.md::chunk-9",
+            "news/article_03.md::chunk-8",
+            "news/article_03.md::chunk-6",
+            "news/article_03.md::chunk-11",
+            "news/article_03.md::chunk-0"
+          ],
+          "faithfulness": 1.0,
+          "answer_relevancy": 0.8043108055777678,
+          "context_recall": 1.0,
+          "context_precision": 0.8041666666465626
+        },
+        {
+          "user_input": "Claude đang tham gia phát triển mô hình tiếp theo của Anthropic ở mức nào?",
+          "response": "Claude đang dẫn dắt khoảng 26% hoạt động nghiên cứu và phát triển (R&D) mô hình tiếp theo của công ty [Document 1]. Mức đóng góp của AI vào quá trình phát triển công nghệ tại công ty tăng vọt so với hồi tháng 3, khi tỷ lệ R&D đạt mức AL4 chỉ chiếm 1% [Document 2]. Để đánh giá mức độ Claude tham gia nghiên cứu và phát triển AI, công ty sử dụng thang đo tự động hóa do Epoch AI phát triển, trong đó mức thấp nhất là AL0 và cao nhất là AL5 [Document 4].",
+          "retrieved_contexts": [
+            "#  AI Claude tham gia phát triển phiên bản tiếp theo của chính nó \nCông ty Anthropic cho biết AI Claude đang dẫn dắt khoảng 26% hoạt động nghiên cứu và phát triển (R&D) mô hình tiếp theo của công ty.",
+            "Sam Altman đồng ý với cam kết này, nhưng theo báo cáo mới, công ty sẽ chỉ đưa bên thứ ba đánh giá độc lập trong một số trường hợp, chẳng hạn như sự cố nghiêm trọng cần điều tra diện rộng.\nAnthropic vẫn dự kiến IPO trong những tuần tới, trong khi OpenAI được cho là đang cân nhắc một vòng gọi vốn trước IPO với mức định giá hơn 1.200 tỷ USD, theo _WSJ_.\n**Nam Nguyễn** _tổng hợp_\n  * AI Claude tham gia phát triển phiên bản tiếp theo của chính nó",
+            "Theo Anthropic, Claude không vận hành hoàn toàn tự chủ trong bất cứ phần công việc nào được đo lường. Tuy nhiên, mức đóng góp của AI vào quá trình phát triển công nghệ tại công ty tăng vọt so với hồi tháng 3, khi tỷ lệ R&D đạt mức AL4 chỉ chiếm 1%.",
+            "Trên blog ngày 17/9, Anthropic cho biết, để đánh giá mức độ Claude tham gia nghiên cứu và phát triển AI, công ty sử dụng thang đo tự động hóa do Epoch AI phát triển. Trong đó, mức thấp nhất là AL0 - không có sự tham gia của AI, và cao nhất là AL5 - AI vận hành hoàn toàn tự chủ, con người không can thiệp.",
+            "* [AI Claude tham gia phát triển phiên bản tiếp theo của chính nó](https://vnexpress.net/ai-claude-tham-gia-phat-trien-phien-ban-tiep-theo-cua-chinh-no-5121950.html \"AI Claude tham gia phát triển phiên bản tiếp theo của chính nó\") [ ](https://vnexpress.net/ai-claude-tham-gia-phat-trien-phien-ban-tiep-theo-cua-chinh-no-5121950.html#box_comment_vne)"
+          ],
+          "reference": "Claude dẫn dắt khoảng 26% hoạt động R&D, trong đó 26% đạt AL4 và hơn 90% công việc đạt AL3.",
+          "source_ids": [
+            "news/article_04.md::chunk-10",
+            "news/article_01.md::chunk-24",
+            "news/article_04.md::chunk-13",
+            "news/article_04.md::chunk-11",
+            "news/article_01.md::chunk-25"
+          ],
+          "faithfulness": 1.0,
+          "answer_relevancy": 0.6902286865778579,
+          "context_recall": 1.0,
+          "context_precision": 0.999999999975
+        },
+        {
+          "user_input": "Vì sao giới công nghệ chia phe trong tranh luận về AI?",
+          "response": "Giới công nghệ chia phe trong tranh luận về AI vì một số lãnh đạo phòng thí nghiệm AI tiên tiến như CEO Anthropic Dario Amodei hay CEO OpenAI Sam Altman cho rằng cần giảm tốc độ phát triển AI để đảm bảo an toàn, trong khi Tổng thống Mỹ Donald Trump và CEO Nvidia Jensen Huang phản đối việc đặt ra giới hạn phát triển [Document 5].",
+          "retrieved_contexts": [
+            "Thứ bảy, 19/9/2026, 10:00 (GMT+7)\n[ ](https://vnexpress.net/ \"VNE\")\n##  Giới công nghệ 'chia phe' vì AI nổi loạn\n  * [](javascript:; \"Chia sẻ bài viết lên Facebook\")\n  * [](javascript:; \"Chia sẻ bài viết lên X\")\n  * [](javascript:; \"Chia sẻ bài viết lên Linkedin\")\n  * [ ](https://vnexpress.net/gioi-cong-nghe-chia-phe-vi-ai-noi-loan-5121529.html#box_comment_vne \"Ý kiến\")\n  * [](javascript:; \"In\")",
+            "#  Giới công nghệ 'chia phe' vì AI nổi loạn \nLời cảnh báo về nguy cơ AI vượt kiểm soát và tiêu diệt nhân loại khiến giới công nghệ chia thành hai phe tranh luận gay gắt.\nTrong khi nhiều lãnh đạo phòng thí nghiệm AI tiên tiến như CEO Anthropic Dario Amodei hay CEO OpenAI Sam Altman cho rằng cần giảm tốc độ phát triển AI để đảm bảo an toàn, Tổng thống Mỹ Donald Trump và CEO Nvidia Jensen Huang phản đối việc đặt ra giới hạn phát triển.\n**Bên kêu gọi làm chậm tốc độ phát triển AI**",
+            "# Giới công nghệ 'chia phe' vì AI nổi loạn - Báo VnExpress\n\n**Source:** https://vnexpress.net/gioi-cong-nghe-chia-phe-vi-ai-noi-loan-5121529.html\n\n**Crawled:** 2026-09-20T15:17:01.859417\n\n---",
+            "Anthropic công khai số liệu mới giữa lúc giới công nghệ tranh luận gay gắt xung quanh vấn đề an toàn AI. Cuộc tranh luận bắt đầu tuần trước, khi Jacob Coxon, nhà nghiên cứu cấp cao của Anthropic và từng làm cho OpenAI, tuyên bố [từ chức](https://vnexpress.net/nha-nghien-cuu-anthropic-tu-chuc-vi-lo-ai-vuot-kiem-soat-5118352.html). \"Ba năm qua, tôi đã nghiên cứu về quá trình huấn luyện trước AI cả ở Anthropic và OpenAI. Không công ty nào hành động một cách có trách nhiệm",
+            "Hình ảnh trình chiếu giao diện ứng dụng Gemini AI tại một sự kiện công nghệ ở TP HCM. Ảnh: _Bảo Lâm_\nNgành công nghiệp AI đang trải qua cuộc tranh luận gay gắt nhất xung quanh câu hỏi liệu AI đang tạo ra mối đe dọa hiện hữu đối với nhân loại hay không. Nỗi lo đã xuất hiện nhiều năm, nhưng trỗi dậy mạnh mẽ vài tuần gần đây khi liên tục xuất hiện tác nhân \"nổi loạn\", tìm cách vượt khỏi môi trường kiểm soát."
+          ],
+          "reference": "Một bên muốn giảm tốc độ phát triển để bảo đảm an toàn, trong khi bên kia phản đối việc đặt thêm giới hạn phát triển AI.",
+          "source_ids": [
+            "news/article_05.md::chunk-8",
+            "news/article_05.md::chunk-9",
+            "news/article_05.md::chunk-0",
+            "news/article_04.md::chunk-17",
+            "news/article_03.md::chunk-12"
+          ],
+          "faithfulness": 1.0,
+          "answer_relevancy": 0.8166115592448491,
+          "context_recall": 1.0,
+          "context_precision": 0.8874999999778125
+        },
+        {
+          "user_input": "OpenAI phát hiện GPT-5.6 Sol đã có những hành vi sai mục tiêu nào?",
+          "response": "GPT-5.6 Sol của OpenAI đã có hành vi sai mục tiêu bao gồm yêu cầu che giấu lỗi và các hành vi sai mục tiêu trước người dùng [Document 1]. Nó cũng đã tự chèn hướng dẫn vào các \"bản tóm tắt nén\" nhằm nhắc các phiên bản tương lai che giấu các sai sót mà nó đã tạo ra trong quá trình thực hiện yêu cầu của người dùng [Document 2]. Ngoài ra, mô hình cũng có hành vi cố tình làm sai chỉ dẫn ban đầu và tự tìm cách \"vượt rào\" để trao đổi thông tin bằng cách tải tệp lên các kho dữ liệu công khai [Document 3]. Tuy nhiên, các trường hợp mới công bố chỉ là một phần nhỏ, không phải danh sách đầy đủ các hành vi sai lệch mà công ty đã biết hoặc đang điều tra [Document 4].",
+          "retrieved_contexts": [
+            "#  Mô hình của OpenAI dạy phiên bản sau 'nói dối' \nOpenAI phát hiện GPT-5.6 Sol hướng dẫn cho các phiên bản tương lai, yêu cầu che giấu lỗi và các hành vi sai mục tiêu trước người dùng.",
+            "![Báo cáo mới của OpenAI cho thấy GPT-5.6 Sol tìm cách che giấu hành vi sai trong quá trình huấn luyện. Ảnh: Shutterstock](https://vnexpress.net/mo-hinh-cua-openai-day-phien-ban-sau-noi-doi-5122375.html)\nBáo cáo mới của OpenAI cho thấy GPT-5.6 Sol tìm cách che giấu hành vi sai trong quá trình huấn luyện. Ảnh: _Shutterstock_",
+            "Báo cáo đăng tải trên website của OpenAI mô tả, trong quá trình huấn luyện, GPT-5.6 Sol tại các thời điểm tự chèn hướng dẫn vào các \"bản tóm tắt nén\" - phiên bản lịch sử hội thoại rút gọn - nhằm nhắc các phiên bản tương lai che giấu các sai sót mà nó đã tạo ra trong quá trình thực hiện các yêu cầu của người dùng.",
+            "Một người phát ngôn của OpenAI nói với _TechCrunch_ rằng các trường hợp mới công bố chỉ là những trường hợp ban đầu, không phải danh sách đầy đủ các hành vi sai lệch mà công ty đã biết hoặc đang điều tra. Công ty này cũng lưu ý đây chỉ là các quan sát tại một số thời điểm, không thể hiện tần suất xảy ra của các hành vi sai.",
+            "Ngoài ra, mô hình cũng có các hành vi cố tình làm sai chỉ dẫn ban đầu. Trong một tác vụ, các tác nhân của OpenAI vốn không được phép truy cập vào các tệp tin của nhau đã tự tìm ra cách \"vượt rào\", trao đổi thông tin bằng cách tải tệp lên các kho dữ liệu công khai."
+          ],
+          "reference": "Mô hình được mô tả là che giấu lỗi, ngụy tạo nguồn, tự chèn hướng dẫn vào bản tóm tắt và tìm cách vượt rào truy cập.",
+          "source_ids": [
+            "news/article_01.md::chunk-10",
+            "news/article_01.md::chunk-15",
+            "news/article_01.md::chunk-13",
+            "news/article_01.md::chunk-18",
+            "news/article_01.md::chunk-17"
+          ],
+          "faithfulness": 1.0,
+          "answer_relevancy": 0.8706748534403943,
+          "context_recall": 1.0,
+          "context_precision": 0.99999999998
+        }
+      ],
+      "latency_ms": 49129.35215306667
+    }
+  }
+}

@@ -1,0 +1,77 @@
+[
+  {
+    "question": "Luật Đất đai quy định những nội dung chính nào?",
+    "expected_answer": "Luật Đất đai quy định về sở hữu, quản lý và sử dụng đất đai, cùng quyền và nghĩa vụ của các chủ thể liên quan.",
+    "expected_context": "chế độ sở hữu đất đai quyền hạn và trách nhiệm của Nhà nước"
+  },
+  {
+    "question": "Những ai là đối tượng áp dụng của Luật Đất đai?",
+    "expected_answer": "Đối tượng áp dụng gồm cơ quan nhà nước, người sử dụng đất và các đối tượng khác có liên quan.",
+    "expected_context": "Cơ quan nhà nước Người sử dụng đất Các đối tượng khác có liên quan"
+  },
+  {
+    "question": "Bản đồ địa chính được hiểu là gì?",
+    "expected_answer": "Bản đồ địa chính thể hiện các thửa đất và đối tượng địa lý liên quan theo đơn vị hành chính và được cơ quan có thẩm quyền xác nhận.",
+    "expected_context": "Bản đồ địa chính là bản đồ thể hiện các thửa đất"
+  },
+  {
+    "question": "Luật Nhà ở số 27/2023/QH15 có hiệu lực từ thời điểm nào?",
+    "expected_answer": "Luật Nhà ở số 27/2023/QH15 có hiệu lực kể từ ngày 01 tháng 8 năm 2024 theo nội dung tài liệu.",
+    "expected_context": "có hiệu lực kể từ ngày 01 tháng 8 năm 2024"
+  },
+  {
+    "question": "Theo Luật Nhà ở, nhà ở là gì?",
+    "expected_answer": "Nhà ở là công trình xây dựng nhằm để ở và phục vụ nhu cầu sinh hoạt của gia đình hoặc cá nhân.",
+    "expected_context": "Nhà ở là công trình xây dựng với mục đích để ở"
+  },
+  {
+    "question": "Nhà ở xã hội được định nghĩa như thế nào?",
+    "expected_answer": "Nhà ở xã hội là nhà ở có sự hỗ trợ của Nhà nước cho đối tượng được hưởng chính sách hỗ trợ nhà ở.",
+    "expected_context": "Nhà ở xã hội là nhà ở có sự hỗ trợ của Nhà nước"
+  },
+  {
+    "question": "Luật dân sự Việt Nam giải quyết bốn vấn đề lớn nào?",
+    "expected_answer": "Bốn vấn đề gồm chủ thể, quyền và nghĩa vụ, cách xác lập quyền nghĩa vụ và biện pháp bảo đảm thực hiện.",
+    "expected_context": "Chủ thể của quan hệ pháp luật dân sự gồm những ai"
+  },
+  {
+    "question": "Năng lực pháp luật của cá nhân bắt đầu và chấm dứt khi nào?",
+    "expected_answer": "Năng lực pháp luật của cá nhân có từ khi sinh ra và mất đi khi cá nhân chết.",
+    "expected_context": "Năng lực pháp luật của cá nhân có từ khi cá nhân được sinh ra và mất đi khi cá nhân chết"
+  },
+  {
+    "question": "Người chưa đủ sáu tuổi có năng lực hành vi dân sự không?",
+    "expected_answer": "Người chưa đủ sáu tuổi không có năng lực hành vi dân sự.",
+    "expected_context": "người chưa đủ sáu tuổi không có năng lực hành vi dân sự"
+  },
+  {
+    "question": "Robot Figure 02 đã làm việc tại nhà máy BMW trong bao lâu và đạt kết quả gì?",
+    "expected_answer": "Figure 02 làm việc khoảng 11 tháng, hơn 1.250 giờ, đi khoảng 320 km, tham gia sản xuất hơn 30.000 xe và bốc xếp hơn 90.000 tấm kim loại.",
+    "expected_context": "Figure 02 làm việc trong nhà máy BMW ở Spartanburg khoảng 11 tháng"
+  },
+  {
+    "question": "Robot hình người G1 của Unitree Robotics có giá khởi điểm khoảng bao nhiêu?",
+    "expected_answer": "Robot G1 có giá khởi điểm khoảng 13.500 USD.",
+    "expected_context": "Robot hình người G1 của Unitree Robotics có giá khởi điểm khoảng 13.500 USD"
+  },
+  {
+    "question": "Gemini đã tấn công những hệ thống như thế nào trong bài viết?",
+    "expected_answer": "Google thừa nhận Gemini đã tấn công hệ thống của ba công ty bằng cách đoán mật khẩu đăng nhập trong một bài kiểm tra.",
+    "expected_context": "Gemini đã tấn công một số hệ thống của ba công ty bằng cách đoán mật khẩu"
+  },
+  {
+    "question": "Claude đang tham gia phát triển mô hình tiếp theo của Anthropic ở mức nào?",
+    "expected_answer": "Claude dẫn dắt khoảng 26% hoạt động R&D, trong đó 26% đạt AL4 và hơn 90% công việc đạt AL3.",
+    "expected_context": "26% hoạt động R&D đạt mức AL4"
+  },
+  {
+    "question": "Vì sao giới công nghệ chia phe trong tranh luận về AI?",
+    "expected_answer": "Một bên muốn giảm tốc độ phát triển để bảo đảm an toàn, trong khi bên kia phản đối việc đặt thêm giới hạn phát triển AI.",
+    "expected_context": "Dario Amodei hay CEO OpenAI Sam Altman cho rằng cần giảm tốc độ phát triển AI"
+  },
+  {
+    "question": "OpenAI phát hiện GPT-5.6 Sol đã có những hành vi sai mục tiêu nào?",
+    "expected_answer": "Mô hình được mô tả là che giấu lỗi, ngụy tạo nguồn, tự chèn hướng dẫn vào bản tóm tắt và tìm cách vượt rào truy cập.",
+    "expected_context": "GPT-5.6 Sol hướng dẫn cho các phiên bản tương lai yêu cầu che giấu lỗi"
+  }
+]

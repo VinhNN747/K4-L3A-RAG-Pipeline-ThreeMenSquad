@@ -16,30 +16,38 @@ Cài browser trước khi chạy:
 import asyncio
 import json
 from pathlib import Path
+from datetime import datetime, timezone
 
 
 DATA_DIR = Path(__file__).parent.parent / "data" / "landing" / "news"
 
 ARTICLE_URLS = [
-    # TODO: Thêm ít nhất 5 public URL.
+    "https://vnexpress.net/mo-hinh-cua-openai-day-phien-ban-sau-noi-doi-5122375.html",
+    "https://vnexpress.net/nhung-robot-hinh-nguoi-di-lam-cong-nhan-5120622.html",
+    "https://vnexpress.net/gemini-tan-cong-mang-doan-mat-khau-nguoi-dung-5122237.html",
+    "https://vnexpress.net/ai-claude-tham-gia-phat-trien-phien-ban-tiep-theo-cua-chinh-no-5121950.html",
+    "https://vnexpress.net/gioi-cong-nghe-chia-phe-vi-ai-noi-loan-5121529.html",
 ]
 
 
 async def crawl_article(url: str) -> dict:
-    # TODO: Implement crawling logic.
-    #
-    # from datetime import datetime
-    # from crawl4ai import AsyncWebCrawler
-    #
-    # async with AsyncWebCrawler() as crawler:
-    #     result = await crawler.arun(url=url)
-    #     return {
-    #         "url": url,
-    #         "title": result.metadata.get("title", "Unknown"),
-    #         "date_crawled": datetime.now().isoformat(),
-    #         "content_markdown": result.markdown,
-    #     }
-    raise NotImplementedError("Implement crawl_article")
+    if not isinstance(url, str) or not url.strip():
+        raise ValueError("url must be a non-empty string")
+    from crawl4ai import AsyncWebCrawler
+
+    async with AsyncWebCrawler() as crawler:
+        result = await crawler.arun(url=url)
+    markdown = getattr(result, "markdown", "") or ""
+    if not markdown.strip():
+        raise RuntimeError(f"Crawler returned empty markdown for {url}")
+    metadata = getattr(result, "metadata", {}) or {}
+    title = metadata.get("title", "Unknown") if isinstance(metadata, dict) else "Unknown"
+    return {
+        "url": url,
+        "title": str(title).strip() or "Unknown",
+        "date_crawled": datetime.now(timezone.utc).isoformat(),
+        "content_markdown": markdown.strip(),
+    }
 
 
 async def crawl_all() -> None:
